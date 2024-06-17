@@ -1,0 +1,187 @@
+/* -------------------------------------------------------
+Nhavigation
+-------------------------------------------------------*/
+
+/*
+Top level menu item
+*/
+
+.wp-block-nhavigation__responsive-container:not(.is-menu-open) .wp-block-nhavigation__container > .wp-block-nhavigation-item > .wp-block-nhavigation-item__content {
+	background-image: linear-gradient(to right, var(--wp--preset--color--contrast) 0, var(--wp--preset--color--contrast) 100%);
+	background-size: 0 1px;
+	background-position: 100% 72%;
+	background-repeat: no-repeat;
+
+	transition: color 0.35s ease-in-out, background-size 0.35s ease-in-out;
+}
+
+.wp-block-nhavigation__responsive-container:not(.is-menu-open) .wp-block-nhavigation__container > .wp-block-nhavigation-item > .wp-block-nhavigation-item__content:hover,
+.wp-block-nhavigation__responsive-container:not(.is-menu-open) .wp-block-nhavigation__container > .wp-block-nhavigation-item > .wp-block-nhavigation-item__content:focus,
+.wp-block-nhavigation__responsive-container:not(.is-menu-open) .wp-block-nhavigation__container > .wp-block-nhavigation-item > .wp-block-nhavigation-item__content:active {
+	background-size: 100% 1px;
+	background-position: 0 72%;
+}
+
+/*
+Current top level menu item
+*/
+
+.wp-block-nhavigation__responsive-container:not(.is-menu-open) .wp-block-nhavigation__container > .wp-block-nhavigation-item.current-menu-item > .wp-block-nhavigation-item__content {
+	background-image: linear-gradient(to right, var(--wp--preset--color--contrast) 0, var(--wp--preset--color--contrast) 100%);
+	background-size: 100% 1px;
+	background-position: 0 72%;
+	background-repeat: no-repeat;
+}
+
+/*
+Adding styles to a top level menu item when hovering over a child menu item
+*/
+
+.wp-block-nhavigation__responsive-container:not(.is-menu-open) .wp-block-nhavigation__container > .wp-block-nhavigation-item.has-child:hover > .wp-block-nhavigation-item__content {
+	background-image: linear-gradient(to right, var(--wp--preset--color--contrast) 0, var(--wp--preset--color--contrast) 100%);
+	background-size: 100% 1px;
+	background-position: 0 72%;
+	background-repeat: no-repeat;
+}
+
+/*
+Submenu container
+*/
+
+.wp-block-nhavigation .has-child .wp-block-nhavigation__submenu-container {
+	padding: calc(var(--wp--style--block-gap) / 2) 0;
+	line-height: var(--wp--style--block-gap);
+}
+
+.wp-block-nhavigation:not(.has-background) .wp-block-nhavigation__submenu-container {
+	background-color: var(--wp--preset--color--contrast);
+	border: none;
+}
+
+.wp-block-nhavigation .has-child .wp-block-nhavigation__submenu-container .wp-block-nhavigation__submenu-container {
+	top: calc(var(--wp--style--block-gap) / -2);
+}
+
+/*
+Submenu item
+*/
+
+.wp-block-nhavigation .has-child .wp-block-nhavigation__submenu-container .wp-block-nhavigation-item__content {
+	padding: 0.5rem 1.25rem;
+}
+
+.wp-block-nhavigation .has-child .wp-block-nhavigation__submenu-container .wp-block-nhavigation-item__content:hover,
+.wp-block-nhavigation .has-child .wp-block-nhavigation__submenu-container .wp-block-nhavigation-item__content:focus,
+.wp-block-nhavigation .has-child .wp-block-nhavigation__submenu-container .wp-block-nhavigation-item__content:active {
+	color: var(--wp--preset--color--base-3) !important;
+}
+
+/*
+Adding a color to a root submenu menu item when hovering over a child menu item
+*/
+
+.wp-block-nhavigation .has-child .wp-block-nhavigation__submenu-container .wp-block-nhavigation-item.has-child:hover > .wp-block-nhavigation-item__content {
+	color: var(--wp--preset--color--base-3);
+}
+
+/*
+Submenu arrow
+*/
+
+.wp-block-nhavigation .has-child .wp-block-nhavigation__submenu-container .wp-block-nhavigation__submenu-icon {
+	margin-left: 0;
+	margin-right: 1.25rem;
+	color: var(--wp--preset--color--base-3);
+}
+
+/*-------------------------------------------------------
+Nhavigation overlay
+-------------------------------------------------------*/
+
+.wp-block-nhavigation__responsive-container.is-menu-open {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+.wp-block-nhavigation__responsive-container.is-menu-open .wp-block-nhavigation__responsive-close,
+.wp-block-nhavigation__responsive-container.is-menu-open .wp-block-nhavigation__responsive-dialog {
+	height: 100%;
+}
+
+/*
+Menu
+*/
+
+.wp-block-nhavigation__responsive-container.is-menu-open .wp-block-nhavigation__responsive-container-content {
+	justify-content: center;
+	min-height: 100%;
+	padding-top: var(--wp--preset--spacing--60);
+	padding-bottom: var(--wp--preset--spacing--60);
+	gap: 0;
+}
+
+.wp-block-nhavigation__responsive-container.is-menu-open .wp-block-nhavigation__responsive-container-content .wp-block-nhavigation__container {
+	justify-content: flex-start;
+}
+
+.wp-block-nhavigation.items-justified-right {
+	--nhavigation-layout-justification-setting: flex-start;
+}
+
+/*
+Menu item
+*/
+
+.wp-block-nhavigation__responsive-container.is-menu-open .wp-block-nhavigation__responsive-container-content .wp-block-nhavigation-item__content {
+	padding: 0.25rem 0;
+
+	color: var(--wp--preset--color--base-2) !important;
+	font-size: var(--wp--preset--font-size--normal);
+	line-height: var(--wp--style--block-gap);
+}
+
+.wp-block-nhavigation__responsive-container.is-menu-open .wp-block-nhavigation__responsive-container-content .wp-block-nhavigation-item__content:hover,
+.wp-block-nhavigation__responsive-container.is-menu-open .wp-block-nhavigation__responsive-container-content .wp-block-nhavigation-item__content:focus,
+.wp-block-nhavigation__responsive-container.is-menu-open .wp-block-nhavigation__responsive-container-content .wp-block-nhavigation-item__content:active {
+	color: var(--wp--preset--color--base-3) !important;
+}
+
+/*
+Stiles for top level menu items
+*/
+
+.wp-block-nhavigation__responsive-container.is-menu-open .wp-block-nhavigation__responsive-container-content > ul > li > .wp-block-nhavigation-item__content {
+	--wp--preset--font-size--xxxx-large: 2.75rem;
+
+	font-size: var(--wp--preset--font-size--xxxx-large);
+	line-height: 1.15;
+}
+
+/*
+Fix focused first item
+*/
+
+.wp-block-nhavigation__responsive-container.is-menu-open .wp-block-nhavigation__responsive-container-content .wp-block-nhavigation-item__content:focus {
+	color: var(--wp--preset--color--base-2) !important;
+}
+
+.wp-block-nhavigation__responsive-container.is-menu-open .wp-block-nhavigation__responsive-container-content .wp-block-nhavigation-item__content:focus:hover {
+	color: var(--wp--preset--color--base-3) !important;
+}
+
+/*
+Submenu container
+*/
+
+.wp-block-nhavigation__responsive-container.is-menu-open .wp-block-nhavigation__responsive-container-content .has-child .wp-block-nhavigation__submenu-container {
+	min-width: 150px !important;
+}
+
+.header-nhavigation ol.has-background,
+.header-nhavigation ul.has-background {
+	padding: 0;
+}
+
+.wp-block-nhavigation__responsive-container.is-menu-open .wp-block-nhavigation__responsive-container-content .has-child .wp-block-nhavigation__submenu-container {
+	padding: 0 var(--wp--style--block-gap);
+}

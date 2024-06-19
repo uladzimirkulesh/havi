@@ -12,17 +12,17 @@ Post comments form
 
 .wp-block-post-comments-form .comment-reply-title {
 	margin-bottom: calc(var(--wp--preset--spacing--20) / 4);
-	font-size: var(--wp--preset--font-size--xxx-large);
+	font-size: var(--wp--preset--font-size--xx-large);
 }
 
 .comment-form .comment-notes,
 .comment-form .logged-in-as {
-	color: var(--wp--preset--color--contrast-2);
+	color: var(--wp--preset--color--contrast-3);
 	font-size: var(--wp--preset--font-size--small);
 }
 
 .comment-form .logged-in-as a {
-	color: var(--wp--preset--color--contrast-2);
+	color: var(--wp--preset--color--contrast-3);
 }
 
 .comment-form .logged-in-as a:hover,
@@ -31,10 +31,6 @@ Post comments form
 	color: var(--wp--preset--color--contrast);
 	text-decoration: underline;
 	text-decoration-color: var(--wp--preset--color--contrast) !important;
-}
-
-.comment-form .required {
-	color: var(--wp--preset--color--danger);
 }
 
 .wp-block-post-comments-form .comment-form-cookies-consent {

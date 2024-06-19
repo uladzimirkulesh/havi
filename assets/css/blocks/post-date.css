@@ -2,7 +2,7 @@
 Post date
 -------------------------------------------------------*/
 
-.wp-block-post-date a {
+/* .wp-block-post-date a {
 	display: inline-block;
 
 	background-image: linear-gradient(to right, var(--wp--preset--color--contrast) 0, var(--wp--preset--color--contrast) 100%);
@@ -18,4 +18,4 @@ Post date
 .wp-block-post-date a:active {
 	background-size: 100% 1px;
 	background-position: 0 96%;
-}
+} */

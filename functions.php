@@ -259,12 +259,12 @@ if ( ! function_exists( 'havi_block_stylesheets' ) ) :
 		);
 
 		wp_enqueue_block_style(
-			'core/nhavigation',
+			'core/navigation',
 			array(
-				'handle' => 'havi-nhavigation',
-				'src'    => get_parent_theme_file_uri( 'assets/css/blocks/nhavigation.css' ),
+				'handle' => 'havi-navigation',
+				'src'    => get_parent_theme_file_uri( 'assets/css/blocks/navigation.css' ),
 				'ver'    => $version_string,
-				'path'   => get_parent_theme_file_path( 'assets/css/blocks/nhavigation.css' ),
+				'path'   => get_parent_theme_file_path( 'assets/css/blocks/navigation.css' ),
 			)
 		);
 

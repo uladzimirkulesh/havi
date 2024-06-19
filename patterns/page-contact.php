@@ -19,8 +19,8 @@
 
 		<!-- wp:group {"metadata":{"name":"Contact blok"},"style":{"spacing":{"blockGap":"0","padding":{"bottom":"var:preset|spacing|10"}}},"className":"contact-block","layout":{"type":"default"}} -->
 		<div class="wp-block-group contact-block" style="padding-bottom:var(--wp--preset--spacing--10)">
-			<!-- wp:group {"metadata":{"name":"Contact block item"},"style":{"spacing":{"blockGap":"var:preset|spacing|20","padding":{"top":"var:preset|spacing|30"}},"border":{"top":{"color":"var:preset|color|contrast-4","style":"solid","width":"1px"}}},"className":"contact-block__item","layout":{"type":"default"}} -->
-			<div class="wp-block-group contact-block__item" style="border-top-color:var(--wp--preset--color--contrast-4);border-top-style:solid;border-top-width:1px;padding-top:var(--wp--preset--spacing--30)">
+			<!-- wp:group {"metadata":{"name":"Contact block item"},"style":{"spacing":{"blockGap":"var:preset|spacing|20","padding":{"top":"var:preset|spacing|30"}},"border":{"top":{"color":"var:preset|color|contrast-5","style":"solid","width":"1px"}}},"className":"contact-block__item","layout":{"type":"default"}} -->
+			<div class="wp-block-group contact-block__item" style="border-top-color:var(--wp--preset--color--contrast-5);border-top-style:solid;border-top-width:1px;padding-top:var(--wp--preset--spacing--30)">
 				<!-- wp:heading {"level":6,"fontSize":"x-large"} -->
 				<h6 class="wp-block-heading has-x-large-font-size"><?php echo esc_html_x( 'Contacts', 'Contact us page pattern contacts block title', 'havi' ); ?></h6>
 				<!-- /wp:heading -->
@@ -35,8 +35,8 @@
 			</div>
 			<!-- /wp:group -->
 
-			<!-- wp:group {"metadata":{"name":"Contact block item"},"style":{"spacing":{"blockGap":"var:preset|spacing|20","padding":{"top":"var:preset|spacing|30"}},"border":{"top":{"color":"var:preset|color|contrast-4","style":"solid","width":"1px"}}},"className":"contact-block__item","layout":{"type":"default"}} -->
-			<div class="wp-block-group contact-block__item" style="border-top-color:var(--wp--preset--color--contrast-4);border-top-style:solid;border-top-width:1px;padding-top:var(--wp--preset--spacing--30)">
+			<!-- wp:group {"metadata":{"name":"Contact block item"},"style":{"spacing":{"blockGap":"var:preset|spacing|20","padding":{"top":"var:preset|spacing|30"}},"border":{"top":{"color":"var:preset|color|contrast-5","style":"solid","width":"1px"}}},"className":"contact-block__item","layout":{"type":"default"}} -->
+			<div class="wp-block-group contact-block__item" style="border-top-color:var(--wp--preset--color--contrast-5);border-top-style:solid;border-top-width:1px;padding-top:var(--wp--preset--spacing--30)">
 				<!-- wp:heading {"level":6,"fontSize":"x-large"} -->
 				<h6 class="wp-block-heading has-x-large-font-size"><?php echo esc_html_x( 'Adress', 'Contact page pattern adress block title', 'havi' ); ?></h6>
 				<!-- /wp:heading -->
@@ -47,8 +47,8 @@
 			</div>
 			<!-- /wp:group -->
 
-			<!-- wp:group {"metadata":{"name":"Contact block item"},"style":{"spacing":{"blockGap":"var:preset|spacing|20","padding":{"top":"var:preset|spacing|30"}},"border":{"top":{"color":"var:preset|color|contrast-4","style":"solid","width":"1px"}}},"className":"contact-block__item","layout":{"type":"default"}} -->
-			<div class="wp-block-group contact-block__item" style="border-top-color:var(--wp--preset--color--contrast-4);border-top-style:solid;border-top-width:1px;padding-top:var(--wp--preset--spacing--30)">
+			<!-- wp:group {"metadata":{"name":"Contact block item"},"style":{"spacing":{"blockGap":"var:preset|spacing|20","padding":{"top":"var:preset|spacing|30"}},"border":{"top":{"color":"var:preset|color|contrast-5","style":"solid","width":"1px"}}},"className":"contact-block__item","layout":{"type":"default"}} -->
+			<div class="wp-block-group contact-block__item" style="border-top-color:var(--wp--preset--color--contrast-5);border-top-style:solid;border-top-width:1px;padding-top:var(--wp--preset--spacing--30)">
 				<!-- wp:heading {"level":6,"fontSize":"x-large"} -->
 				<h6 class="wp-block-heading has-x-large-font-size"><?php echo esc_html_x( 'Socials', 'Contact page pattern socials block title', 'havi' ); ?></h6>
 				<!-- /wp:heading -->

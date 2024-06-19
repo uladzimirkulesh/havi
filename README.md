@@ -19,36 +19,30 @@ So why settle for a generic portfolio when you can have Havi - the ultimate Word
 
 ### Spacing (320-1600px):
 
-* 10: 12px
-* 20: 20-24px
-* 30: 36-48px
-* 40: 48-72px
-* 50: 56-84px
-* 60: 96-144px
-* 70: 120-240px
+* 10: 12px 			0.5
+* 20: 24px			1
+* 30: 36-48px 		1.5-2
+* 40: 48-72px 		2-3
+* 50: 60-96px 		2.5-4
+* 60: 84-144px 		3.5-6
+* 70: 120-216px 	5-9
 
 ### Font-sizes (320-1600px):
 
-* Small:			14px		   - Small Text
-* Normal:		16px		   - Text
-* Medium:		18px		   - H6, Blockquote
-* Large:			21px		   - H5, Pullquote
-* X Large:		24px		   - H4
-* 2X Large:		28-30px		- H3
-* 3X Large:		32-36px		- H2
-* 4X Large:		36-48px		- H1
-* 5X Large:		42-72px		- Large Headings
-* 6X Large:		42-96px		- Post Headings
-* 7X Large:		60-256px	   - Huge Headings
+* Small:		14px		- Small Text
+* Normal:		16px		- H6, Text
+* Medium:		18px		- H5, Blockquote
+* Large:		21px		- H4, Pullquote
+* X Large:		24px		- H3
+* 2X Large:		28-30px		- H2
+* 3X Large:		32-36px		- H1
+* 4X Large:		36-42px		- Post Headings
 
 ## Terminal
 
 browser-sync start --proxy "localhost:8888/wordpress" --files "**/*" --browser "firefox" --no-notify
 
 ## Changelog
-
-**1.0.1 - June 17, 2024**
-* FIXED: Spacings.
 
 **1.0.0 - June 12, 2024**
 * Release

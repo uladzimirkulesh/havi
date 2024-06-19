@@ -2,12 +2,14 @@
 Quote
 -------------------------------------------------------*/
 
-.wp-block-quote {
-	position: relative;
+/*
+Add additional margin to the quote block within post content.
+*/
+
+.wp-block-post-content :where(p, span[id^="more"]) + .wp-block-quote:not([style*="margin-top"]) {
+	margin-top: calc(var(--wp--style--block-gap) * 2);
 }
 
-.wp-block-quote.is-large:where(:not(.is-style-plain)),
-.wp-block-quote.is-style-large:where(:not(.is-style-plain)) {
-	padding-left: calc(var(--wp--style--block-gap) * 1.75);
-	padding-right: 0;
+.wp-block-post-content :where(p, .wp-block-heading, span[id^="more"]) + .wp-block-quote:not([style*="margin-bottom"]) {
+	margin-bottom: calc(var(--wp--style--block-gap) * 2);
 }

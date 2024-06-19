@@ -151,7 +151,7 @@ Section "Latest Articles"
 }
 
 .section--latest-articles .section__content .wp-block-query {
-	border-top: 1px solid var(--wp--preset--color--contrast-4);
+	border-top: 1px solid var(--wp--preset--color--contrast-5);
 }
 
 /*

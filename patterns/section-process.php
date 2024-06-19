@@ -19,8 +19,8 @@
 
 	<!-- wp:group {"metadata":{"name":"Section content"},"style":{"spacing":{"blockGap":"0"}},"className":"section__content grid","layout":{"type":"default"}} -->
 	<div class="wp-block-group section__content grid">
-		<!-- wp:group {"metadata":{"name":"Process item"},"style":{"spacing":{"padding":{"left":"var:preset|spacing|30"}},"border":{"left":{"color":"var:preset|color|contrast-4","style":"solid","width":"1px"}}},"className":"process__item","layout":{"type":"default"}} -->
-		<div class="wp-block-group process__item" style="border-left-color:var(--wp--preset--color--contrast-4);border-left-style:solid;border-left-width:1px;padding-left:var(--wp--preset--spacing--30)">
+		<!-- wp:group {"metadata":{"name":"Process item"},"style":{"spacing":{"padding":{"left":"var:preset|spacing|30"}},"border":{"left":{"color":"var:preset|color|contrast-5","style":"solid","width":"1px"}}},"className":"process__item","layout":{"type":"default"}} -->
+		<div class="wp-block-group process__item" style="border-left-color:var(--wp--preset--color--contrast-5);border-left-style:solid;border-left-width:1px;padding-left:var(--wp--preset--spacing--30)">
 			<!-- wp:heading {"level":3} -->
 			<h3 class="wp-block-heading"><?php echo esc_html_x( '01. Strategy', 'Process section item title', 'havi' ); ?></h3>
 			<!-- /wp:heading -->
@@ -31,8 +31,8 @@
 		</div>
 		<!-- /wp:group -->
 
-		<!-- wp:group {"metadata":{"name":"Process item"},"style":{"spacing":{"padding":{"left":"var:preset|spacing|30"}},"border":{"left":{"color":"var:preset|color|contrast-4","style":"solid","width":"1px"}}},"className":"process__item","layout":{"type":"default"}} -->
-		<div class="wp-block-group process__item" style="border-left-color:var(--wp--preset--color--contrast-4);border-left-style:solid;border-left-width:1px;padding-left:var(--wp--preset--spacing--30)">
+		<!-- wp:group {"metadata":{"name":"Process item"},"style":{"spacing":{"padding":{"left":"var:preset|spacing|30"}},"border":{"left":{"color":"var:preset|color|contrast-5","style":"solid","width":"1px"}}},"className":"process__item","layout":{"type":"default"}} -->
+		<div class="wp-block-group process__item" style="border-left-color:var(--wp--preset--color--contrast-5);border-left-style:solid;border-left-width:1px;padding-left:var(--wp--preset--spacing--30)">
 			<!-- wp:heading {"level":3} -->
 			<h3 class="wp-block-heading"><?php echo esc_html_x( '02. Execution', 'Process section item title', 'havi' ); ?></h3>
 			<!-- /wp:heading -->
@@ -43,8 +43,8 @@
 		</div>
 		<!-- /wp:group -->
 
-		<!-- wp:group {"metadata":{"name":"Process item"},"style":{"spacing":{"padding":{"left":"var:preset|spacing|30"}},"border":{"left":{"color":"var:preset|color|contrast-4","style":"solid","width":"1px"}}},"className":"process__item","layout":{"type":"default"}} -->
-		<div class="wp-block-group process__item" style="border-left-color:var(--wp--preset--color--contrast-4);border-left-style:solid;border-left-width:1px;padding-left:var(--wp--preset--spacing--30)">
+		<!-- wp:group {"metadata":{"name":"Process item"},"style":{"spacing":{"padding":{"left":"var:preset|spacing|30"}},"border":{"left":{"color":"var:preset|color|contrast-5","style":"solid","width":"1px"}}},"className":"process__item","layout":{"type":"default"}} -->
+		<div class="wp-block-group process__item" style="border-left-color:var(--wp--preset--color--contrast-5);border-left-style:solid;border-left-width:1px;padding-left:var(--wp--preset--spacing--30)">
 			<!-- wp:heading {"level":3} -->
 			<h3 class="wp-block-heading"><?php echo esc_html_x( '03. Launch', 'Process section item title', 'havi' ); ?></h3>
 			<!-- /wp:heading -->

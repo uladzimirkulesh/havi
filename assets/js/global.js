@@ -7,7 +7,7 @@
 	-------------------------------------------------------*/
 
 	function setCurrentMenuItemClass() {
-		const menuItems = document.querySelectorAll( '.wp-block-nhavigation-item' );
+		const menuItems = document.querySelectorAll( '.wp-block-navigation-item' );
 
 		if ( ! menuItems.length ) {
 			return;

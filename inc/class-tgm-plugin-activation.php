@@ -2786,7 +2786,7 @@ if ( ! class_exists( 'TGMPA_List_Table' ) ) {
 		 *
 		 * @since 2.5.0
 		 *
-		 * @param string $which 'top' or 'bottom' table nhavigation.
+		 * @param string $which 'top' or 'bottom' table navigation.
 		 */
 		public function extra_tablenav( $which ) {
 			if ( 'bottom' === $which ) {

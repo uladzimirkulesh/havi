@@ -67,7 +67,7 @@
 
 		// Hide overlay when click the "Back" button in the browser
 		window.addEventListener( "pageshow", function ( event ) {
-			var historyTraversal = event.persisted || ( typeof window.performance != "undefined" && window.performance.nhavigation.type === 2 );
+			var historyTraversal = event.persisted || ( typeof window.performance != "undefined" && window.performance.navigation.type === 2 );
 
 			if ( historyTraversal ) {
 				// Page load

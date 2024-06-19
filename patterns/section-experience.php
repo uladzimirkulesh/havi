@@ -21,24 +21,24 @@
 	<div class="wp-block-group section__content grid">
 		<!-- wp:group {"metadata":{"name":"Experiences list"},"style":{"spacing":{"blockGap":"0"}},"className":"experiences-list","layout":{"type":"default"}} -->
 		<div class="wp-block-group experiences-list">
-			<!-- wp:group {"metadata":{"name":"Experiences list item"},"style":{"border":{"bottom":{"color":"var:preset|color|contrast-4","style":"solid","width":"1px"}},"spacing":{"padding":{"bottom":"0.5rem"}}},"className":"experiences-list__item experiences-list__item--head","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-			<div class="wp-block-group experiences-list__item experiences-list__item--head" style="border-bottom-color:var(--wp--preset--color--contrast-4);border-bottom-style:solid;border-bottom-width:1px;padding-bottom:0.5rem">
-				<!-- wp:paragraph {"textColor":"contrast-2","fontSize":"small"} -->
-				<p class="has-contrast-2-color has-text-color has-link-color has-small-font-size"><?php echo esc_html_x( 'Position', 'Experience list item text', 'havi' ); ?></p>
+			<!-- wp:group {"metadata":{"name":"Experiences list item"},"style":{"border":{"bottom":{"color":"var:preset|color|contrast-5","style":"solid","width":"1px"}},"spacing":{"padding":{"bottom":"0.5rem"}}},"className":"experiences-list__item experiences-list__item--head","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+			<div class="wp-block-group experiences-list__item experiences-list__item--head" style="border-bottom-color:var(--wp--preset--color--contrast-5);border-bottom-style:solid;border-bottom-width:1px;padding-bottom:0.5rem">
+				<!-- wp:paragraph {"textColor":"contrast-3","fontSize":"small"} -->
+				<p class="has-contrast-3-color has-text-color has-link-color has-small-font-size"><?php echo esc_html_x( 'Position', 'Experience list item text', 'havi' ); ?></p>
 				<!-- /wp:paragraph -->
 
-				<!-- wp:paragraph {"textColor":"contrast-2","fontSize":"small"} -->
-				<p class="has-contrast-2-color has-text-color has-link-color has-small-font-size"><?php echo esc_html_x( 'Company name', 'Experience list item text', 'havi' ); ?></p>
+				<!-- wp:paragraph {"textColor":"contrast-3","fontSize":"small"} -->
+				<p class="has-contrast-3-color has-text-color has-link-color has-small-font-size"><?php echo esc_html_x( 'Company name', 'Experience list item text', 'havi' ); ?></p>
 				<!-- /wp:paragraph -->
 
-				<!-- wp:paragraph {"textColor":"contrast-2","fontSize":"small"} -->
-				<p class="has-contrast-2-color has-text-color has-link-color has-small-font-size"><?php echo esc_html_x( 'Period', 'Experience list item text', 'havi' ); ?></p>
+				<!-- wp:paragraph {"textColor":"contrast-3","fontSize":"small"} -->
+				<p class="has-contrast-3-color has-text-color has-link-color has-small-font-size"><?php echo esc_html_x( 'Period', 'Experience list item text', 'havi' ); ?></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:group -->
 
-			<!-- wp:group {"metadata":{"name":"Experiences list item"},"style":{"border":{"bottom":{"color":"var:preset|color|contrast-4","style":"solid","width":"1px"}},"spacing":{"padding":{"top":"1rem","bottom":"1rem"}}},"className":"experiences-list__item","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-			<div class="wp-block-group experiences-list__item" style="border-bottom-color:var(--wp--preset--color--contrast-4);border-bottom-style:solid;border-bottom-width:1px;padding-top:1rem;padding-bottom:1rem">
+			<!-- wp:group {"metadata":{"name":"Experiences list item"},"style":{"border":{"bottom":{"color":"var:preset|color|contrast-5","style":"solid","width":"1px"}},"spacing":{"padding":{"top":"1rem","bottom":"1rem"}}},"className":"experiences-list__item","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+			<div class="wp-block-group experiences-list__item" style="border-bottom-color:var(--wp--preset--color--contrast-5);border-bottom-style:solid;border-bottom-width:1px;padding-top:1rem;padding-bottom:1rem">
 				<!-- wp:paragraph -->
 				<p class="has-contrast-color has-text-color has-link-color"><?php echo esc_html_x( 'Digital Designer', 'Experience list item text', 'havi' ); ?></p>
 				<!-- /wp:paragraph -->
@@ -53,8 +53,8 @@
 			</div>
 			<!-- /wp:group -->
 
-			<!-- wp:group {"metadata":{"name":"Experiences list item"},"style":{"border":{"bottom":{"color":"var:preset|color|contrast-4","style":"solid","width":"1px"}},"spacing":{"padding":{"top":"1rem","bottom":"1rem"}}},"className":"experiences-list__item","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-			<div class="wp-block-group experiences-list__item" style="border-bottom-color:var(--wp--preset--color--contrast-4);border-bottom-style:solid;border-bottom-width:1px;padding-top:1rem;padding-bottom:1rem">
+			<!-- wp:group {"metadata":{"name":"Experiences list item"},"style":{"border":{"bottom":{"color":"var:preset|color|contrast-5","style":"solid","width":"1px"}},"spacing":{"padding":{"top":"1rem","bottom":"1rem"}}},"className":"experiences-list__item","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+			<div class="wp-block-group experiences-list__item" style="border-bottom-color:var(--wp--preset--color--contrast-5);border-bottom-style:solid;border-bottom-width:1px;padding-top:1rem;padding-bottom:1rem">
 				<!-- wp:paragraph -->
 				<p class="has-contrast-color has-text-color has-link-color"><?php echo esc_html_x( 'Senior Digital Designer', 'Experience list item text', 'havi' ); ?></p>
 				<!-- /wp:paragraph -->
@@ -69,8 +69,8 @@
 			</div>
 			<!-- /wp:group -->
 
-			<!-- wp:group {"metadata":{"name":"Experiences list item"},"style":{"border":{"bottom":{"color":"var:preset|color|contrast-4","style":"solid","width":"1px"}},"spacing":{"padding":{"top":"1rem","bottom":"1rem"}}},"className":"experiences-list__item","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-			<div class="wp-block-group experiences-list__item" style="border-bottom-color:var(--wp--preset--color--contrast-4);border-bottom-style:solid;border-bottom-width:1px;padding-top:1rem;padding-bottom:1rem">
+			<!-- wp:group {"metadata":{"name":"Experiences list item"},"style":{"border":{"bottom":{"color":"var:preset|color|contrast-5","style":"solid","width":"1px"}},"spacing":{"padding":{"top":"1rem","bottom":"1rem"}}},"className":"experiences-list__item","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+			<div class="wp-block-group experiences-list__item" style="border-bottom-color:var(--wp--preset--color--contrast-5);border-bottom-style:solid;border-bottom-width:1px;padding-top:1rem;padding-bottom:1rem">
 				<!-- wp:paragraph -->
 				<p class="has-contrast-color has-text-color has-link-color"><?php echo esc_html_x( 'Junior Designer', 'Experience list item text', 'havi' ); ?></p>
 				<!-- /wp:paragraph -->
@@ -85,8 +85,8 @@
 			</div>
 			<!-- /wp:group -->
 
-			<!-- wp:group {"metadata":{"name":"Experiences list item"},"style":{"border":{"bottom":{"color":"var:preset|color|contrast-4","style":"solid","width":"1px"}},"spacing":{"padding":{"top":"1rem","bottom":"1rem"}}},"className":"experiences-list__item","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-			<div class="wp-block-group experiences-list__item" style="border-bottom-color:var(--wp--preset--color--contrast-4);border-bottom-style:solid;border-bottom-width:1px;padding-top:1rem;padding-bottom:1rem">
+			<!-- wp:group {"metadata":{"name":"Experiences list item"},"style":{"border":{"bottom":{"color":"var:preset|color|contrast-5","style":"solid","width":"1px"}},"spacing":{"padding":{"top":"1rem","bottom":"1rem"}}},"className":"experiences-list__item","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+			<div class="wp-block-group experiences-list__item" style="border-bottom-color:var(--wp--preset--color--contrast-5);border-bottom-style:solid;border-bottom-width:1px;padding-top:1rem;padding-bottom:1rem">
 				<!-- wp:paragraph -->
 				<p class="has-contrast-color has-text-color has-link-color"><?php echo esc_html_x( 'Design Director', 'Experience list item text', 'havi' ); ?></p>
 				<!-- /wp:paragraph -->
@@ -101,8 +101,8 @@
 			</div>
 			<!-- /wp:group -->
 
-			<!-- wp:group {"metadata":{"name":"Experiences list item"},"style":{"border":{"bottom":{"color":"var:preset|color|contrast-4","style":"solid","width":"1px"}},"spacing":{"padding":{"top":"1rem","bottom":"1rem"}}},"className":"experiences-list__item","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-			<div class="wp-block-group experiences-list__item" style="border-bottom-color:var(--wp--preset--color--contrast-4);border-bottom-style:solid;border-bottom-width:1px;padding-top:1rem;padding-bottom:1rem">
+			<!-- wp:group {"metadata":{"name":"Experiences list item"},"style":{"border":{"bottom":{"color":"var:preset|color|contrast-5","style":"solid","width":"1px"}},"spacing":{"padding":{"top":"1rem","bottom":"1rem"}}},"className":"experiences-list__item","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+			<div class="wp-block-group experiences-list__item" style="border-bottom-color:var(--wp--preset--color--contrast-5);border-bottom-style:solid;border-bottom-width:1px;padding-top:1rem;padding-bottom:1rem">
 				<!-- wp:paragraph -->
 				<p class="has-contrast-color has-text-color has-link-color"><?php echo esc_html_x( 'UI/UX Designer', 'Experience list item text', 'havi' ); ?></p>
 				<!-- /wp:paragraph -->
@@ -117,8 +117,8 @@
 			</div>
 			<!-- /wp:group -->
 
-			<!-- wp:group {"metadata":{"name":"Experiences list item"},"style":{"border":{"bottom":{"color":"var:preset|color|contrast-4","style":"solid","width":"1px"}},"spacing":{"padding":{"top":"1rem","bottom":"1rem"}}},"className":"experiences-list__item","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-			<div class="wp-block-group experiences-list__item" style="border-bottom-color:var(--wp--preset--color--contrast-4);border-bottom-style:solid;border-bottom-width:1px;padding-top:1rem;padding-bottom:1rem">
+			<!-- wp:group {"metadata":{"name":"Experiences list item"},"style":{"border":{"bottom":{"color":"var:preset|color|contrast-5","style":"solid","width":"1px"}},"spacing":{"padding":{"top":"1rem","bottom":"1rem"}}},"className":"experiences-list__item","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+			<div class="wp-block-group experiences-list__item" style="border-bottom-color:var(--wp--preset--color--contrast-5);border-bottom-style:solid;border-bottom-width:1px;padding-top:1rem;padding-bottom:1rem">
 				<!-- wp:paragraph -->
 				<p class="has-contrast-color has-text-color has-link-color"><?php echo esc_html_x( 'Web Developer', 'Experience list item text', 'havi' ); ?></p>
 				<!-- /wp:paragraph -->

@@ -21,25 +21,25 @@
 	<div class="wp-block-group section__content grid">
 		<!-- wp:group {"metadata":{"name":"Awards list"},"style":{"spacing":{"blockGap":"0"}},"className":"awards-list","layout":{"type":"default"}} -->
 		<div class="wp-block-group awards-list">
-			<!-- wp:group {"metadata":{"name":"Awards list item"},"style":{"border":{"bottom":{"color":"var:preset|color|contrast-4","style":"solid","width":"1px"}},"spacing":{"padding":{"bottom":"0.5rem"}}},"className":"awards-list__item awards-list__item--head","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-			<div class="wp-block-group awards-list__item awards-list__item--head" style="border-bottom-color:var(--wp--preset--color--contrast-4);border-bottom-style:solid;border-bottom-width:1px;padding-bottom:0.5rem">
-				<!-- wp:paragraph {"textColor":"contrast-2","fontSize":"small"} -->
-				<p class="has-contrast-2-color has-text-color has-link-color has-small-font-size"><?php echo esc_html_x( 'Project', 'Awards list item text', 'havi' ); ?></p>
+			<!-- wp:group {"metadata":{"name":"Awards list item"},"style":{"border":{"bottom":{"color":"var:preset|color|contrast-5","style":"solid","width":"1px"}},"spacing":{"padding":{"bottom":"0.5rem"}}},"className":"awards-list__item awards-list__item--head","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+			<div class="wp-block-group awards-list__item awards-list__item--head" style="border-bottom-color:var(--wp--preset--color--contrast-5);border-bottom-style:solid;border-bottom-width:1px;padding-bottom:0.5rem">
+				<!-- wp:paragraph {"textColor":"contrast-3","fontSize":"small"} -->
+				<p class="has-contrast-3-color has-text-color has-link-color has-small-font-size"><?php echo esc_html_x( 'Project', 'Awards list item text', 'havi' ); ?></p>
 				<!-- /wp:paragraph -->
 
-				<!-- wp:paragraph {"textColor":"contrast-2","fontSize":"small"} -->
-				<p class="has-contrast-2-color has-text-color has-link-color has-small-font-size"><?php echo esc_html_x( 'Platform', 'Awards list item text', 'havi' ); ?></p>
+				<!-- wp:paragraph {"textColor":"contrast-3","fontSize":"small"} -->
+				<p class="has-contrast-3-color has-text-color has-link-color has-small-font-size"><?php echo esc_html_x( 'Platform', 'Awards list item text', 'havi' ); ?></p>
 				<!-- /wp:paragraph -->
 
-				<!-- wp:paragraph {"textColor":"contrast-2","fontSize":"small"} -->
-				<p class="has-contrast-2-color has-text-color has-link-color has-small-font-size"><?php echo esc_html_x( 'Award', 'Awards list item text', 'havi' ); ?></p>
+				<!-- wp:paragraph {"textColor":"contrast-3","fontSize":"small"} -->
+				<p class="has-contrast-3-color has-text-color has-link-color has-small-font-size"><?php echo esc_html_x( 'Award', 'Awards list item text', 'havi' ); ?></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:group -->
 
-			<!-- wp:group {"metadata":{"name":"Awards list item"},"style":{"border":{"bottom":{"color":"var:preset|color|contrast-4","style":"solid","width":"1px"}},"spacing":{"padding":{"top":"1rem","bottom":"1rem"}}},"className":"awards-list__item","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-			<div class="wp-block-group awards-list__item" style="border-bottom-color:var(--wp--preset--color--contrast-4);border-bottom-style:solid;border-bottom-width:1px;padding-top:1rem;padding-bottom:1rem">
-				<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"},":hover":{"color":{"text":"var:preset|color|contrast-2"}}}}},"textColor":"contrast"} -->
+			<!-- wp:group {"metadata":{"name":"Awards list item"},"style":{"border":{"bottom":{"color":"var:preset|color|contrast-5","style":"solid","width":"1px"}},"spacing":{"padding":{"top":"1rem","bottom":"1rem"}}},"className":"awards-list__item","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+			<div class="wp-block-group awards-list__item" style="border-bottom-color:var(--wp--preset--color--contrast-5);border-bottom-style:solid;border-bottom-width:1px;padding-top:1rem;padding-bottom:1rem">
+				<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"},":hover":{"color":{"text":"var:preset|color|contrast-3"}}}}},"textColor":"contrast"} -->
 				<p class="has-contrast-color has-text-color has-link-color"><a href="#"><?php echo esc_html_x( 'Turanga Theme', 'Awards list item text', 'havi' ); ?></a></p>
 				<!-- /wp:paragraph -->
 
@@ -53,9 +53,9 @@
 			</div>
 			<!-- /wp:group -->
 
-			<!-- wp:group {"metadata":{"name":"Awards list item"},"style":{"border":{"bottom":{"color":"var:preset|color|contrast-4","style":"solid","width":"1px"}},"spacing":{"padding":{"top":"1rem","bottom":"1rem"}}},"className":"awards-list__item","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-			<div class="wp-block-group awards-list__item" style="border-bottom-color:var(--wp--preset--color--contrast-4);border-bottom-style:solid;border-bottom-width:1px;padding-top:1rem;padding-bottom:1rem">
-				<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"},":hover":{"color":{"text":"var:preset|color|contrast-2"}}}}},"textColor":"contrast"} -->
+			<!-- wp:group {"metadata":{"name":"Awards list item"},"style":{"border":{"bottom":{"color":"var:preset|color|contrast-5","style":"solid","width":"1px"}},"spacing":{"padding":{"top":"1rem","bottom":"1rem"}}},"className":"awards-list__item","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+			<div class="wp-block-group awards-list__item" style="border-bottom-color:var(--wp--preset--color--contrast-5);border-bottom-style:solid;border-bottom-width:1px;padding-top:1rem;padding-bottom:1rem">
+				<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"},":hover":{"color":{"text":"var:preset|color|contrast-3"}}}}},"textColor":"contrast"} -->
 				<p class="has-contrast-color has-text-color has-link-color"><a href="#"><?php echo esc_html_x( 'Malhavi Theme', 'Awards list item text', 'havi' ); ?></a></p>
 				<!-- /wp:paragraph -->
 
@@ -69,9 +69,9 @@
 			</div>
 			<!-- /wp:group -->
 
-			<!-- wp:group {"metadata":{"name":"Awards list item"},"style":{"border":{"bottom":{"color":"var:preset|color|contrast-4","style":"solid","width":"1px"}},"spacing":{"padding":{"top":"1rem","bottom":"1rem"}}},"className":"awards-list__item","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-			<div class="wp-block-group awards-list__item" style="border-bottom-color:var(--wp--preset--color--contrast-4);border-bottom-style:solid;border-bottom-width:1px;padding-top:1rem;padding-bottom:1rem">
-				<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"},":hover":{"color":{"text":"var:preset|color|contrast-2"}}}}},"textColor":"contrast"} -->
+			<!-- wp:group {"metadata":{"name":"Awards list item"},"style":{"border":{"bottom":{"color":"var:preset|color|contrast-5","style":"solid","width":"1px"}},"spacing":{"padding":{"top":"1rem","bottom":"1rem"}}},"className":"awards-list__item","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+			<div class="wp-block-group awards-list__item" style="border-bottom-color:var(--wp--preset--color--contrast-5);border-bottom-style:solid;border-bottom-width:1px;padding-top:1rem;padding-bottom:1rem">
+				<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"},":hover":{"color":{"text":"var:preset|color|contrast-3"}}}}},"textColor":"contrast"} -->
 				<p class="has-contrast-color has-text-color has-link-color"><a href="#"><?php echo esc_html_x( 'UK Portfolio Plugin', 'Awards list item text', 'havi' ); ?></a></p>
 				<!-- /wp:paragraph -->
 
@@ -85,9 +85,9 @@
 			</div>
 			<!-- /wp:group -->
 
-			<!-- wp:group {"metadata":{"name":"Awards list item"},"style":{"border":{"bottom":{"color":"var:preset|color|contrast-4","style":"solid","width":"1px"}},"spacing":{"padding":{"top":"1rem","bottom":"1rem"}}},"className":"awards-list__item","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-			<div class="wp-block-group awards-list__item" style="border-bottom-color:var(--wp--preset--color--contrast-4);border-bottom-style:solid;border-bottom-width:1px;padding-top:1rem;padding-bottom:1rem">
-				<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"},":hover":{"color":{"text":"var:preset|color|contrast-2"}}}}},"textColor":"contrast"} -->
+			<!-- wp:group {"metadata":{"name":"Awards list item"},"style":{"border":{"bottom":{"color":"var:preset|color|contrast-5","style":"solid","width":"1px"}},"spacing":{"padding":{"top":"1rem","bottom":"1rem"}}},"className":"awards-list__item","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+			<div class="wp-block-group awards-list__item" style="border-bottom-color:var(--wp--preset--color--contrast-5);border-bottom-style:solid;border-bottom-width:1px;padding-top:1rem;padding-bottom:1rem">
+				<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"},":hover":{"color":{"text":"var:preset|color|contrast-3"}}}}},"textColor":"contrast"} -->
 				<p class="has-contrast-color has-text-color has-link-color"><a href="#"><?php echo esc_html_x( 'Melina Theme', 'Awards list item text', 'havi' ); ?></a></p>
 				<!-- /wp:paragraph -->
 
@@ -101,9 +101,9 @@
 			</div>
 			<!-- /wp:group -->
 
-			<!-- wp:group {"metadata":{"name":"Awards list item"},"style":{"border":{"bottom":{"color":"var:preset|color|contrast-4","style":"solid","width":"1px"}},"spacing":{"padding":{"top":"1rem","bottom":"1rem"}}},"className":"awards-list__item","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-			<div class="wp-block-group awards-list__item" style="border-bottom-color:var(--wp--preset--color--contrast-4);border-bottom-style:solid;border-bottom-width:1px;padding-top:1rem;padding-bottom:1rem">
-				<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"},":hover":{"color":{"text":"var:preset|color|contrast-2"}}}}},"textColor":"contrast"} -->
+			<!-- wp:group {"metadata":{"name":"Awards list item"},"style":{"border":{"bottom":{"color":"var:preset|color|contrast-5","style":"solid","width":"1px"}},"spacing":{"padding":{"top":"1rem","bottom":"1rem"}}},"className":"awards-list__item","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+			<div class="wp-block-group awards-list__item" style="border-bottom-color:var(--wp--preset--color--contrast-5);border-bottom-style:solid;border-bottom-width:1px;padding-top:1rem;padding-bottom:1rem">
+				<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"},":hover":{"color":{"text":"var:preset|color|contrast-3"}}}}},"textColor":"contrast"} -->
 				<p class="has-contrast-color has-text-color has-link-color"><a href="#"><?php echo esc_html_x( 'Neiman Theme', 'Awards list item text', 'havi' ); ?></a></p>
 				<!-- /wp:paragraph -->
 
@@ -117,9 +117,9 @@
 			</div>
 			<!-- /wp:group -->
 
-			<!-- wp:group {"metadata":{"name":"Awards list item"},"style":{"border":{"bottom":{"color":"var:preset|color|contrast-4","style":"solid","width":"1px"}},"spacing":{"padding":{"top":"1rem","bottom":"1rem"}}},"className":"awards-list__item","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-			<div class="wp-block-group awards-list__item" style="border-bottom-color:var(--wp--preset--color--contrast-4);border-bottom-style:solid;border-bottom-width:1px;padding-top:1rem;padding-bottom:1rem">
-				<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"},":hover":{"color":{"text":"var:preset|color|contrast-2"}}}}},"textColor":"contrast"} -->
+			<!-- wp:group {"metadata":{"name":"Awards list item"},"style":{"border":{"bottom":{"color":"var:preset|color|contrast-5","style":"solid","width":"1px"}},"spacing":{"padding":{"top":"1rem","bottom":"1rem"}}},"className":"awards-list__item","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+			<div class="wp-block-group awards-list__item" style="border-bottom-color:var(--wp--preset--color--contrast-5);border-bottom-style:solid;border-bottom-width:1px;padding-top:1rem;padding-bottom:1rem">
+				<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"},":hover":{"color":{"text":"var:preset|color|contrast-3"}}}}},"textColor":"contrast"} -->
 				<p class="has-contrast-color has-text-color has-link-color"><a href="#"><?php echo esc_html_x( 'Itonga Theme', 'Awards list item text', 'havi' ); ?></a></p>
 				<!-- /wp:paragraph -->
 

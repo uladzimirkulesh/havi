@@ -19,10 +19,10 @@
 
 	<!-- wp:group {"metadata":{"name":"Section content"},"style":{"spacing":{"blockGap":"0"}},"className":"section__content grid","layout":{"type":"default"}} -->
 	<div class="wp-block-group section__content grid">
-		<!-- wp:group {"metadata":{"name":"Services item"},"style":{"border":{"left":{"color":"var:preset|color|contrast-4","style":"solid","width":"1px"}},"spacing":{"padding":{"left":"var:preset|spacing|30"}}},"className":"services__item","layout":{"type":"default"}} -->
-		<div class="wp-block-group services__item" style="border-left-color:var(--wp--preset--color--contrast-4);border-left-style:solid;border-left-width:1px;padding-left:var(--wp--preset--spacing--30)">
-			<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"}}},"typography":{"lineHeight":"1"}},"textColor":"contrast-3","fontSize":"xxxxx-large"} -->
-			<p class="has-contrast-3-color has-text-color has-link-color has-xxxxx-large-font-size" style="line-height:1"><?php echo esc_html_x( '01', 'Services section item number', 'havi' ); ?></p>
+		<!-- wp:group {"metadata":{"name":"Services item"},"style":{"border":{"left":{"color":"var:preset|color|contrast-5","style":"solid","width":"1px"}},"spacing":{"padding":{"left":"var:preset|spacing|30"}}},"className":"services__item","layout":{"type":"default"}} -->
+		<div class="wp-block-group services__item" style="border-left-color:var(--wp--preset--color--contrast-5);border-left-style:solid;border-left-width:1px;padding-left:var(--wp--preset--spacing--30)">
+			<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-4"}}},"typography":{"lineHeight":"1"}},"textColor":"contrast-4","fontSize":"xxxxx-large"} -->
+			<p class="has-contrast-4-color has-text-color has-link-color has-xxxxx-large-font-size" style="line-height:1"><?php echo esc_html_x( '01', 'Services section item number', 'havi' ); ?></p>
 			<!-- /wp:paragraph -->
 
 			<!-- wp:heading {"level":3} -->
@@ -35,10 +35,10 @@
 		</div>
 		<!-- /wp:group -->
 
-		<!-- wp:group {"metadata":{"name":"Services item"},"style":{"border":{"left":{"color":"var:preset|color|contrast-4","style":"solid","width":"1px"}},"spacing":{"padding":{"left":"var:preset|spacing|30"}}},"className":"services__item","layout":{"type":"default"}} -->
-		<div class="wp-block-group services__item" style="border-left-color:var(--wp--preset--color--contrast-4);border-left-style:solid;border-left-width:1px;padding-left:var(--wp--preset--spacing--30)">
-			<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"}}},"typography":{"lineHeight":"1"}},"textColor":"contrast-3","fontSize":"xxxxx-large"} -->
-			<p class="has-contrast-3-color has-text-color has-link-color has-xxxxx-large-font-size" style="line-height:1"><?php echo esc_html_x( '02', 'Services section item number', 'havi' ); ?></p>
+		<!-- wp:group {"metadata":{"name":"Services item"},"style":{"border":{"left":{"color":"var:preset|color|contrast-5","style":"solid","width":"1px"}},"spacing":{"padding":{"left":"var:preset|spacing|30"}}},"className":"services__item","layout":{"type":"default"}} -->
+		<div class="wp-block-group services__item" style="border-left-color:var(--wp--preset--color--contrast-5);border-left-style:solid;border-left-width:1px;padding-left:var(--wp--preset--spacing--30)">
+			<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-4"}}},"typography":{"lineHeight":"1"}},"textColor":"contrast-4","fontSize":"xxxxx-large"} -->
+			<p class="has-contrast-4-color has-text-color has-link-color has-xxxxx-large-font-size" style="line-height:1"><?php echo esc_html_x( '02', 'Services section item number', 'havi' ); ?></p>
 			<!-- /wp:paragraph -->
 
 			<!-- wp:heading {"level":3} -->
@@ -51,10 +51,10 @@
 		</div>
 		<!-- /wp:group -->
 
-		<!-- wp:group {"metadata":{"name":"Services item"},"style":{"border":{"left":{"color":"var:preset|color|contrast-4","style":"solid","width":"1px"}},"spacing":{"padding":{"left":"var:preset|spacing|30"}}},"className":"services__item","layout":{"type":"default"}} -->
-		<div class="wp-block-group services__item" style="border-left-color:var(--wp--preset--color--contrast-4);border-left-style:solid;border-left-width:1px;padding-left:var(--wp--preset--spacing--30)">
-			<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"}}},"typography":{"lineHeight":"1"}},"textColor":"contrast-3","fontSize":"xxxxx-large"} -->
-			<p class="has-contrast-3-color has-text-color has-link-color has-xxxxx-large-font-size" style="line-height:1"><?php echo esc_html_x( '03', 'Services section item number', 'havi' ); ?></p>
+		<!-- wp:group {"metadata":{"name":"Services item"},"style":{"border":{"left":{"color":"var:preset|color|contrast-5","style":"solid","width":"1px"}},"spacing":{"padding":{"left":"var:preset|spacing|30"}}},"className":"services__item","layout":{"type":"default"}} -->
+		<div class="wp-block-group services__item" style="border-left-color:var(--wp--preset--color--contrast-5);border-left-style:solid;border-left-width:1px;padding-left:var(--wp--preset--spacing--30)">
+			<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-4"}}},"typography":{"lineHeight":"1"}},"textColor":"contrast-4","fontSize":"xxxxx-large"} -->
+			<p class="has-contrast-4-color has-text-color has-link-color has-xxxxx-large-font-size" style="line-height:1"><?php echo esc_html_x( '03', 'Services section item number', 'havi' ); ?></p>
 			<!-- /wp:paragraph -->
 
 			<!-- wp:heading {"level":3} -->

@@ -25,7 +25,7 @@ Comment content
 		margin-left: 4rem !important;
 	}
 
-	.wp-block-comment-template ol {
+	.wp-block-comment-template li > ol {
 		padding-left: 4rem;
 	}
 }

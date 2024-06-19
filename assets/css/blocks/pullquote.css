@@ -13,3 +13,15 @@ Pullquote
 		margin-right: calc(var(--wp--style--block-gap) * 1.5);
 	}
 }
+
+/*
+Add additional margin to the pullquote block within post content.
+*/
+
+.wp-block-post-content :where(p, span[id^="more"]) + .wp-block-pullquote:not([style*="margin-top"]) {
+	margin-top: calc(var(--wp--style--block-gap) * 2);
+}
+
+.wp-block-post-content :where(p, .wp-block-heading, span[id^="more"]) + .wp-block-pullquote:not([style*="margin-bottom"]) {
+	margin-bottom: calc(var(--wp--style--block-gap) * 2);
+}

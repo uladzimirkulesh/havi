@@ -17,12 +17,12 @@ Post comments form
 
 .comment-form .comment-notes,
 .comment-form .logged-in-as {
-	color: var(--wp--preset--color--contrast-3);
+	color: var(--wp--preset--color--contrast-4);
 	font-size: var(--wp--preset--font-size--small);
 }
 
 .comment-form .logged-in-as a {
-	color: var(--wp--preset--color--contrast-3);
+	color: var(--wp--preset--color--contrast-4);
 }
 
 .comment-form .logged-in-as a:hover,
@@ -52,7 +52,7 @@ Post comments form
 	.comment-form-url {
 		width: 32%;
 		float: left;
-		margin-top: 0;
+		margin-bottom: var(--wp--style--block-gap);
 	}
 
 	.comment-form-author,

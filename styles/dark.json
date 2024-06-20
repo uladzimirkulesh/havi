@@ -32,17 +32,17 @@
 				{
 					"color": "rgba(239, 239, 239, 0.5)",
 					"name": "Contrast / Two",
-					"slug": "contrast-3"
+					"slug": "contrast-4"
 				},
 				{
 					"color": "rgba(239, 239, 239, 0.15)",
 					"name": "Contrast / Three",
-					"slug": "contrast-4"
+					"slug": "contrast-5"
 				},
 				{
 					"color": "rgba(239, 239, 239, 0.11)",
 					"name": "Contrast / Four",
-					"slug": "contrast-5"
+					"slug": "contrast-6"
 				},
 				{
 					"color": "rgba(239, 239, 239, 0.07)",
@@ -67,7 +67,7 @@
 				"border": {
 					"width": "1px",
 					"style": "solid",
-					"color": "var(--wp--preset--color--contrast-4)",
+					"color": "var(--wp--preset--color--contrast-5)",
 					"radius": "3rem"
 				},
 				"spacing": {

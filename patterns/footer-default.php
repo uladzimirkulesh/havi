@@ -7,8 +7,8 @@
  */
 ?>
 
-<!-- wp:group {"metadata":{"name":"Footer container"},"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"},":hover":{"color":{"text":"var:preset|color|contrast-3"}}}}},"textColor":"contrast-3","className":"footer-container is-style-has-global-padding","layout":{"type":"default"}} -->
-<div class="wp-block-group footer-container is-style-has-global-padding has-contrast-3-color has-text-color has-link-color">
+<!-- wp:group {"metadata":{"name":"Footer container"},"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-4"},":hover":{"color":{"text":"var:preset|color|contrast-4"}}}}},"textColor":"contrast-4","className":"footer-container is-style-has-global-padding","layout":{"type":"default"}} -->
+<div class="wp-block-group footer-container is-style-has-global-padding has-contrast-4-color has-text-color has-link-color">
 	<!-- wp:group {"style":{"spacing":{"padding":{"top":"2.5rem","bottom":"2.5rem"}}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"},"fontSize":"small"} -->
 	<div class="wp-block-group has-small-font-size" style="padding-top:2.5rem;padding-bottom:2.5rem">
 		<!-- wp:group {"style":{"spacing":{"blockGap":"0.625rem"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->

@@ -7,7 +7,7 @@ Description: Introducing Havi - the ultimate WordPress theme for digital designe
 Requires at least: 6.1
 Tested up to: 6.5
 Requires PHP: 5.6
-Version: 1.0.0111111111111
+Version: 1.0.0111111111111111111
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 Text Domain: havi
@@ -20,6 +20,7 @@ html {
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
 
+	/* Settings for Inter font */
 	font-feature-settings: "cv10";
 	font-variation-settings: "opsz" 30;
 }
@@ -74,7 +75,7 @@ Fonts
 */
 
 .has-medium-font-size {
-	line-height: 1.44444;
+	line-height: 1.33333;
 }
 
 .has-large-font-size {
@@ -90,11 +91,7 @@ Fonts
 }
 
 .has-xxx-large-font-size {
-	line-height: 1.16667;
-}
-
-.has-xxxx-large-font-size {
-	line-height: 1.08333;
+	line-height: 1.11111;
 }
 
 /*
@@ -117,12 +114,20 @@ Helper classes
 	padding-bottom: var(--wp--custom--spacing--global-padding-bottom);
 }
 
+.has-global-padding-right {
+	padding-right: var(--wp--style--root--padding-left);
+}
+
+.has-global-padding-left {
+	padding-left: var(--wp--style--root--padding-right);
+}
+
 /*-------------------------------------------------------
 Forms
 -------------------------------------------------------*/
 
 ::placeholder {
-	color: var(--wp--preset--color--contrast-5);
+	color: var(--wp--preset--color--contrast-4);
 }
 
 ::-moz-placeholder {
@@ -134,16 +139,12 @@ Form
 */
 
 form > * {
-	margin-top: var(--wp--style--block-gap);
-	margin-bottom: var(--wp--style--block-gap);
+	margin-block-start: var(--wp--style--block-gap);
+	margin-block-end: 0;
 }
 
 form > :first-child {
-	margin-top: 0;
-}
-
-form > :last-child {
-	margin-bottom: 0;
+	margin-block-start: 0;
 }
 
 /*
@@ -153,20 +154,11 @@ Label
 label,
 .wp-block-search__label {
 	display: block;
-	margin-bottom: calc(var(--wp--style--block-gap) / 4);
+	margin-bottom: 0.25rem;
 
-	color: var(--wp--preset--color--contrast-3);
+	color: var(--wp--preset--color--contrast-4);
 	font-size: var(--wp--preset--font-size--small);
 	font-weight: var(--wp--custom--font-weight--text);
-}
-
-/*
-Fieldset
-*/
-
-fieldset {
-	margin-top: var(--wp--style--block-gap);
-	margin-bottom: var(--wp--style--block-gap);
 }
 
 /*
@@ -178,7 +170,6 @@ Inputs
 .wp-block-post-comments-form textarea,
 .wp-block-search__input {
 	appearance: none;
-	/* outline: none; */
 
 	color: var(--wp--preset--color--contrast);
 	font-family: inherit;
@@ -190,7 +181,7 @@ Inputs
 	background-color: var(--wp--preset--color--base-2);
 	border-width: 1px;
 	border-style: solid;
-	border-color: var(--wp--preset--color--contrast-4);
+	border-color: var(--wp--preset--color--contrast-5);
 	border-radius: 0.25rem;
 	box-shadow: none;
 
@@ -219,7 +210,7 @@ Inputs
 	max-width: 100%;
 	padding: 0 2rem 0 1rem;
 
-	background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='10' fill='%23ffffff'><polygon points='0,0 10,0 5,5'/></svg>");
+	background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='10' fill='%23000000'><polygon points='0,0 10,0 5,5'/></svg>");
 	background-position: right 1rem top 60%;
 	background-repeat: no-repeat;
 }
@@ -228,15 +219,14 @@ Inputs
 .wp-block-post-comments-form input:not([type="checkbox"]):not([type="submit"]):hover,
 .wp-block-post-comments-form textarea:hover,
 .wp-block-search__input:hover  {
-	border-color: var(--wp--preset--color--contrast-3);
+	border-color: var(--wp--preset--color--contrast-5);
 }
 
 :where(input:not([type="checkbox"]):not([type="submit"]), textarea, select):focus,
 .wp-block-post-comments-form input:not([type="checkbox"]):not([type="submit"]):focus,
 .wp-block-post-comments-form textarea:focus,
 .wp-block-search__input:focus  {
-	border-color: var(--wp--preset--color--contrast-3);
-	/* outline: none; */
+	border-color: var(--wp--preset--color--contrast-5);
 }
 
 :where(input:not([type="checkbox"]):not([type="submit"]), textarea, select):disabled,
@@ -258,15 +248,20 @@ Radio, checkbox
 input[type="radio"],
 input[type="checkbox"] {
 	position: relative;
-	border: 1px solid var(--wp--preset--color--contrast-4) !important;
+	border: 1px solid var(--wp--preset--color--contrast-5) !important;
 }
 
 input[type="radio"] + label,
 input[type="checkbox"] + label {
 	display: inline;
 	margin-bottom: 0;
-	margin-left: 0.25em;
+	margin-left: 0.5em;
 	font-weight: var(--wp--custom--font-weight--text);
+}
+
+.wp-block-post-comments-form .comment-form-cookies-consent #wp-comment-cookies-consent {
+	top: 0.08em;
+	margin: 0;
 }
 
 /*-------------------------------------------------------
@@ -310,8 +305,6 @@ Header
 	left: 0;
 	width: 100%;
 	z-index: 10000;
-	/* pointer-events: none; */
-	/* pointer-events: auto; */
 }
 
 /*-------------------------------------------------------
@@ -335,53 +328,6 @@ Entry footer
 }
 
 /*-------------------------------------------------------
-Archive
--------------------------------------------------------*/
-
-/*
-Page title
-*/
-
-.page-header > .wp-block-heading {
-	grid-column: 1 / -1;
-}
-
-.page-header > .wp-block-heading:not([class*="-font-size"]) {
-	font-size: clamp(2.625rem, 6.09375vw + 1.40625rem, 7.5rem);
-}
-
-/*
-Page description
-*/
-
-.page-header > p {
-	grid-column: 1 / -1;
-}
-
-.page-header > p:not([class*="-font-size"]) {
-	font-size: clamp(1.125rem, 0.78125vi + 0.96875rem, 1.75rem);
-	line-height: 1.33333;
-}
-
-@media only screen and (min-width: 600px) {
-	.page-header > p {
-		grid-column: 3 / 9;
-	}
-}
-
-@media only screen and (min-width: 768px) {
-	.page-header > p {
-		grid-column: 5 / 9;
-	}
-}
-
-@media only screen and (min-width: 960px) {
-	.page-header > p {
-		grid-column: 7 / 13;
-	}
-}
-
-/*-------------------------------------------------------
 Footer
 -------------------------------------------------------*/
 
@@ -391,18 +337,15 @@ Footer
 	bottom: 0;
 	width: 100%;
 	z-index: 1000;
-	/* pointer-events: none; */
-	/* pointer-events: auto; */
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 599px) {
 	.footer-container > .wp-block-group {
-		gap: 0.25rem var(--wp--preset--spacing--20);
+		gap: 0 var(--wp--preset--spacing--20);
 	}
 }
 
 .footer-container > .wp-block-group > * {
-	/* pointer-events: auto; */
 	line-height: var(--wp--style--block-gap);
 }
 
@@ -412,19 +355,10 @@ Footer links
 
 .footer-container a {
 	text-decoration: none;
-
-	/* background-image: linear-gradient(to right, var(--wp--preset--color--contrast-3) 0, var(--wp--preset--color--contrast-3) 100%);
-	background-size: 0 1px;
-	background-position: 100% 94%;
-	background-repeat: no-repeat;
-
-	transition: color 0.35s ease-in-out, background-size 0.35s ease-in-out; */
 }
 
 .footer-container a:hover,
 .footer-container a:focus,
 .footer-container a:active {
-	/* background-size: 100% 1px;
-	background-position: 0 94%; */
 	text-decoration: underline;
 }

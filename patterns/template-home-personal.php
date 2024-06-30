@@ -2,7 +2,7 @@
 /**
  * Title: Personal home template
  * Slug: havi/template-home-personal
- * Template Types: front-page, home
+ * Template Types: front-page, index, home
  * Inserter: no
  */
 ?>

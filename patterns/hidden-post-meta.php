@@ -6,7 +6,7 @@
  */
 ?>
 
-<!-- wp:group {"style":{"spacing":{"blockGap":"0.5em"}},"layout":{"type":"flex"}} -->
+<!-- wp:group {"style":{"spacing":{"blockGap":"0.625em"}},"layout":{"type":"flex"}} -->
 <div class="wp-block-group">
 	<!-- wp:post-terms {"term":"category","prefix":"<?php echo esc_html_x( 'Published in ', 'Prefix for the post category block: in category name', 'havi' ); ?>"} /-->
 

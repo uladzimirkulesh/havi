@@ -7,7 +7,7 @@ Description: Introducing Havi - the ultimate WordPress theme for digital designe
 Requires at least: 6.1
 Tested up to: 6.5
 Requires PHP: 5.6
-Version: 1.0.0111111111111111111
+Version: 1.0.01111111111111111111111111111111
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 Text Domain: havi
@@ -178,10 +178,10 @@ Inputs
 	line-height: var(--wp--custom--line-height);
 	letter-spacing: var(--wp--custom--letter-spacing--text);
 
-	background-color: var(--wp--preset--color--base-2);
+	background-color: var(--wp--custom--style--input-background-color);
 	border-width: 1px;
 	border-style: solid;
-	border-color: var(--wp--preset--color--contrast-5);
+	border-color: var(--wp--custom--style--input-border-color);
 	border-radius: 0.25rem;
 	box-shadow: none;
 
@@ -219,26 +219,18 @@ Inputs
 .wp-block-post-comments-form input:not([type="checkbox"]):not([type="submit"]):hover,
 .wp-block-post-comments-form textarea:hover,
 .wp-block-search__input:hover  {
-	border-color: var(--wp--preset--color--contrast-5);
+	border-color: var(--wp--custom--style--input-border-color);
 }
 
 :where(input:not([type="checkbox"]):not([type="submit"]), textarea, select):focus,
 .wp-block-post-comments-form input:not([type="checkbox"]):not([type="submit"]):focus,
 .wp-block-post-comments-form textarea:focus,
 .wp-block-search__input:focus  {
-	border-color: var(--wp--preset--color--contrast-5);
-}
-
-:where(input:not([type="checkbox"]):not([type="submit"]), textarea, select):disabled,
-.wp-block-post-comments-form input:not([type="checkbox"]):not([type="submit"]):disabled,
-.wp-block-post-comments-form textarea:disabled,
-.wp-block-search__input:disabled  {
-	opacity: 0.8;
+	border-color: var(--wp--custom--style--input-border-color);
 }
 
 textarea {
 	resize: vertical;
-	height: 8lh;
 }
 
 /*
@@ -248,20 +240,14 @@ Radio, checkbox
 input[type="radio"],
 input[type="checkbox"] {
 	position: relative;
-	border: 1px solid var(--wp--preset--color--contrast-5) !important;
+	border: 1px solid var(--wp--custom--style--input-border-color) !important;
 }
 
 input[type="radio"] + label,
 input[type="checkbox"] + label {
-	display: inline;
 	margin-bottom: 0;
-	margin-left: 0.5em;
+	margin-left: 0.5rem;
 	font-weight: var(--wp--custom--font-weight--text);
-}
-
-.wp-block-post-comments-form .comment-form-cookies-consent #wp-comment-cookies-consent {
-	top: 0.08em;
-	margin: 0;
 }
 
 /*-------------------------------------------------------
@@ -319,6 +305,25 @@ Entry meta
 	position: relative;
 }
 
+.entry-meta > .wp-block-group > p:first-child {
+	display: none;
+}
+
+/*
+Read more link
+*/
+
+.wp-block-post-excerpt__more-link {
+	color: var(--wp--preset--color--contrast-4);
+	font-size: var(--wp--preset--font-size--small);
+}
+
+.wp-block-post-excerpt__more-link:hover,
+.wp-block-post-excerpt__more-link:focus,
+.wp-block-post-excerpt__more-link:active {
+	color: var(--wp--preset--color--contrast-4);
+}
+
 /*
 Entry footer
 */
@@ -361,4 +366,12 @@ Footer links
 .footer-container a:focus,
 .footer-container a:active {
 	text-decoration: underline;
+}
+
+/*-------------------------------------------------------
+Loading screen
+-------------------------------------------------------*/
+
+.loading-screen {
+	background-color: var(--wp--custom--style--loading-screen-bg);
 }

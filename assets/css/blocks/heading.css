@@ -6,6 +6,6 @@ Headings
 Adding more space before headings
 */
 
-.wp-block-post-content p + .wp-block-heading:not([style*="margin-top"]) {
+.wp-block-post-content :where(p, span[id^="more"]) + .wp-block-heading:not([style*="margin-top"]) {
 	margin-block-start: calc(var(--wp--style--block-gap) * 2);
 }

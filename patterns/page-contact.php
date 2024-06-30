@@ -9,17 +9,17 @@
  */
 ?>
 
-<!-- wp:group {"metadata":{"name":"Page contact"},"align":"wide","style":{"spacing":{"blockGap":"0"}},"className":"page-contact grid","layout":{"type":"default"}} -->
+<!-- wp:group {"metadata":{"name":"Page Contact"},"align":"wide","style":{"spacing":{"blockGap":"0"}},"className":"page-contact grid","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide page-contact grid">
-	<!-- wp:group {"metadata":{"name":"Contact info"},"style":{"spacing":{"blockGap":"var:preset|spacing|60"}},"className":"contact-info","layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch","verticalAlignment":"space-between"}} -->
+	<!-- wp:group {"metadata":{"name":"Contact Info"},"style":{"spacing":{"blockGap":"var:preset|spacing|60"}},"className":"contact-info","layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch","verticalAlignment":"space-between"}} -->
 	<div class="wp-block-group contact-info">
 		<!-- wp:heading {"level":1,"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"textColor":"contrast"} -->
 		<h1 class="wp-block-heading has-contrast-color has-text-color has-link-color"><?php echo esc_html_x( 'Whether it\'s a conversation about all things design or thinking about a potential project or opportunity, get in touch.', 'Contact page pattern text', 'havi' ); ?></h1>
 		<!-- /wp:heading -->
 
-		<!-- wp:group {"metadata":{"name":"Contact blok"},"style":{"spacing":{"blockGap":"0","padding":{"bottom":"var:preset|spacing|10"}}},"className":"contact-block","layout":{"type":"default"}} -->
+		<!-- wp:group {"metadata":{"name":"Contact Blok"},"style":{"spacing":{"blockGap":"0","padding":{"bottom":"var:preset|spacing|10"}}},"className":"contact-block","layout":{"type":"default"}} -->
 		<div class="wp-block-group contact-block" style="padding-bottom:var(--wp--preset--spacing--10)">
-			<!-- wp:group {"metadata":{"name":"Contact block item"},"style":{"spacing":{"blockGap":"var:preset|spacing|20","padding":{"top":"var:preset|spacing|30"}},"border":{"top":{"color":"var:preset|color|contrast-6","style":"solid","width":"1px"}}},"className":"contact-block__item","layout":{"type":"default"}} -->
+			<!-- wp:group {"metadata":{"name":"Contact Block Item"},"style":{"spacing":{"blockGap":"var:preset|spacing|20","padding":{"top":"var:preset|spacing|30"}},"border":{"top":{"color":"var:preset|color|contrast-6","style":"solid","width":"1px"}}},"className":"contact-block__item","layout":{"type":"default"}} -->
 			<div class="wp-block-group contact-block__item" style="border-top-color:var(--wp--preset--color--contrast-6);border-top-style:solid;border-top-width:1px;padding-top:var(--wp--preset--spacing--30)">
 				<!-- wp:heading {"level":6,"fontSize":"x-large"} -->
 				<h6 class="wp-block-heading has-x-large-font-size"><?php echo esc_html_x( 'Contacts', 'Contact us page pattern contacts block title', 'havi' ); ?></h6>
@@ -35,7 +35,7 @@
 			</div>
 			<!-- /wp:group -->
 
-			<!-- wp:group {"metadata":{"name":"Contact block item"},"style":{"spacing":{"blockGap":"var:preset|spacing|20","padding":{"top":"var:preset|spacing|30"}},"border":{"top":{"color":"var:preset|color|contrast-6","style":"solid","width":"1px"}}},"className":"contact-block__item","layout":{"type":"default"}} -->
+			<!-- wp:group {"metadata":{"name":"Contact Block Item"},"style":{"spacing":{"blockGap":"var:preset|spacing|20","padding":{"top":"var:preset|spacing|30"}},"border":{"top":{"color":"var:preset|color|contrast-6","style":"solid","width":"1px"}}},"className":"contact-block__item","layout":{"type":"default"}} -->
 			<div class="wp-block-group contact-block__item" style="border-top-color:var(--wp--preset--color--contrast-6);border-top-style:solid;border-top-width:1px;padding-top:var(--wp--preset--spacing--30)">
 				<!-- wp:heading {"level":6,"fontSize":"x-large"} -->
 				<h6 class="wp-block-heading has-x-large-font-size"><?php echo esc_html_x( 'Adress', 'Contact page pattern adress block title', 'havi' ); ?></h6>
@@ -47,7 +47,7 @@
 			</div>
 			<!-- /wp:group -->
 
-			<!-- wp:group {"metadata":{"name":"Contact block item"},"style":{"spacing":{"blockGap":"var:preset|spacing|20","padding":{"top":"var:preset|spacing|30"}},"border":{"top":{"color":"var:preset|color|contrast-6","style":"solid","width":"1px"}}},"className":"contact-block__item","layout":{"type":"default"}} -->
+			<!-- wp:group {"metadata":{"name":"Contact Block Item"},"style":{"spacing":{"blockGap":"var:preset|spacing|20","padding":{"top":"var:preset|spacing|30"}},"border":{"top":{"color":"var:preset|color|contrast-6","style":"solid","width":"1px"}}},"className":"contact-block__item","layout":{"type":"default"}} -->
 			<div class="wp-block-group contact-block__item" style="border-top-color:var(--wp--preset--color--contrast-6);border-top-style:solid;border-top-width:1px;padding-top:var(--wp--preset--spacing--30)">
 				<!-- wp:heading {"level":6,"fontSize":"x-large"} -->
 				<h6 class="wp-block-heading has-x-large-font-size"><?php echo esc_html_x( 'Socials', 'Contact page pattern socials block title', 'havi' ); ?></h6>
@@ -71,7 +71,7 @@
 	</div>
 	<!-- /wp:group -->
 
-	<!-- wp:group {"metadata":{"name":"Contact image"},"style":{"spacing":{"blockGap":"0"}},"className":"contact-image","layout":{"type":"default"}} -->
+	<!-- wp:group {"metadata":{"name":"Contact Image"},"style":{"spacing":{"blockGap":"0"}},"className":"contact-image","layout":{"type":"default"}} -->
 	<div class="wp-block-group contact-image">
 		<!-- wp:image {"aspectRatio":"3/4","scale":"cover","sizeSlug":"full"} -->
 		<figure class="wp-block-image size-full"><img alt="" style="aspect-ratio:3/4;object-fit:cover"/></figure>

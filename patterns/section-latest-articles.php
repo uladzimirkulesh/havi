@@ -9,7 +9,7 @@
 
 <!-- wp:group {"tagName":"section","metadata":{"name":"Section Latest Articles"},"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|40","margin":{"bottom":"var:preset|spacing|70"}}},"className":"section section--latest-articles","layout":{"type":"default"}} -->
 <section class="wp-block-group alignwide section section--latest-articles" id="section-latest-articles" style="margin-bottom:var(--wp--preset--spacing--70)">
-	<!-- wp:group {"tagName":"header","metadata":{"name":"Section header"},"className":"section__header","layout":{"type":"default"}} -->
+	<!-- wp:group {"tagName":"header","metadata":{"name":"Section Header"},"className":"section__header","layout":{"type":"default"}} -->
 	<header class="wp-block-group section__header">
 		<!-- wp:heading {"fontSize":"xxxxx-large"} -->
 		<h2 class="wp-block-heading has-xxxxx-large-font-size"><?php echo esc_html_x( 'Latest Articles', 'Latest articles section title', 'havi' ); ?></h2>
@@ -17,7 +17,7 @@
 	</header>
 	<!-- /wp:group -->
 
-	<!-- wp:group {"metadata":{"name":"Section content"},"className":"section__content grid","layout":{"type":"default"}} -->
+	<!-- wp:group {"metadata":{"name":"Section Content"},"className":"section__content grid","layout":{"type":"default"}} -->
 	<div class="wp-block-group section__content grid">
 		<!-- wp:query {"query":{"perPage":"7","pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false,"parents":[]},"layout":{"type":"default"}} -->
 		<div class="wp-block-query">

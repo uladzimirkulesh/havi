@@ -9,7 +9,7 @@
 
 <!-- wp:group {"tagName":"section","metadata":{"name":"Section Awards"},"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|40","margin":{"bottom":"var:preset|spacing|70"}}},"className":"section section--awards","layout":{"type":"default"}} -->
 <section class="wp-block-group alignwide section section--awards" id="section-awards" style="margin-bottom:var(--wp--preset--spacing--70)">
-	<!-- wp:group {"metadata":{"name":"Section header"},"className":"section__header","layout":{"type":"default"}} -->
+	<!-- wp:group {"metadata":{"name":"Section Header"},"className":"section__header","layout":{"type":"default"}} -->
 	<div class="wp-block-group section__header">
 		<!-- wp:heading {"level":1,"fontSize":"xxxxx-large"} -->
 		<h1 class="wp-block-heading has-xxxxx-large-font-size"><?php echo esc_html_x( 'Awards', 'Awards section title', 'havi' ); ?></h1>
@@ -17,11 +17,11 @@
 	</div>
 	<!-- /wp:group -->
 
-	<!-- wp:group {"metadata":{"name":"Section content"},"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"className":"section__content grid","layout":{"type":"default"}} -->
+	<!-- wp:group {"metadata":{"name":"Section Content"},"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"className":"section__content grid","layout":{"type":"default"}} -->
 	<div class="wp-block-group section__content grid">
-		<!-- wp:group {"metadata":{"name":"Awards list"},"style":{"spacing":{"blockGap":"0"}},"className":"awards-list","layout":{"type":"default"}} -->
+		<!-- wp:group {"metadata":{"name":"Awards List"},"style":{"spacing":{"blockGap":"0"}},"className":"awards-list","layout":{"type":"default"}} -->
 		<div class="wp-block-group awards-list">
-			<!-- wp:group {"metadata":{"name":"Awards list item"},"style":{"border":{"bottom":{"color":"var:preset|color|contrast-6","style":"solid","width":"1px"}},"spacing":{"padding":{"bottom":"0.5rem"}}},"className":"awards-list__item awards-list__item--head","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+			<!-- wp:group {"metadata":{"name":"Awards List Item"},"style":{"border":{"bottom":{"color":"var:preset|color|contrast-6","style":"solid","width":"1px"}},"spacing":{"padding":{"bottom":"0.5rem"}}},"className":"awards-list__item awards-list__item--head","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 			<div class="wp-block-group awards-list__item awards-list__item--head" style="border-bottom-color:var(--wp--preset--color--contrast-6);border-bottom-style:solid;border-bottom-width:1px;padding-bottom:0.5rem">
 				<!-- wp:paragraph {"textColor":"contrast-4","fontSize":"small"} -->
 				<p class="has-contrast-4-color has-text-color has-link-color has-small-font-size"><?php echo esc_html_x( 'Project', 'Awards list item text', 'havi' ); ?></p>
@@ -37,7 +37,7 @@
 			</div>
 			<!-- /wp:group -->
 
-			<!-- wp:group {"metadata":{"name":"Awards list item"},"style":{"border":{"bottom":{"color":"var:preset|color|contrast-6","style":"solid","width":"1px"}},"spacing":{"padding":{"top":"1rem","bottom":"1rem"}}},"className":"awards-list__item","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+			<!-- wp:group {"metadata":{"name":"Awards List Item"},"style":{"border":{"bottom":{"color":"var:preset|color|contrast-6","style":"solid","width":"1px"}},"spacing":{"padding":{"top":"1rem","bottom":"1rem"}}},"className":"awards-list__item","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 			<div class="wp-block-group awards-list__item" style="border-bottom-color:var(--wp--preset--color--contrast-6);border-bottom-style:solid;border-bottom-width:1px;padding-top:1rem;padding-bottom:1rem">
 				<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"},":hover":{"color":{"text":"var:preset|color|contrast-4"}}}}},"textColor":"contrast"} -->
 				<p class="has-contrast-color has-text-color has-link-color"><a href="#"><?php echo esc_html_x( 'Turanga Theme', 'Awards list item text', 'havi' ); ?></a></p>
@@ -53,7 +53,7 @@
 			</div>
 			<!-- /wp:group -->
 
-			<!-- wp:group {"metadata":{"name":"Awards list item"},"style":{"border":{"bottom":{"color":"var:preset|color|contrast-6","style":"solid","width":"1px"}},"spacing":{"padding":{"top":"1rem","bottom":"1rem"}}},"className":"awards-list__item","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+			<!-- wp:group {"metadata":{"name":"Awards List Item"},"style":{"border":{"bottom":{"color":"var:preset|color|contrast-6","style":"solid","width":"1px"}},"spacing":{"padding":{"top":"1rem","bottom":"1rem"}}},"className":"awards-list__item","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 			<div class="wp-block-group awards-list__item" style="border-bottom-color:var(--wp--preset--color--contrast-6);border-bottom-style:solid;border-bottom-width:1px;padding-top:1rem;padding-bottom:1rem">
 				<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"},":hover":{"color":{"text":"var:preset|color|contrast-4"}}}}},"textColor":"contrast"} -->
 				<p class="has-contrast-color has-text-color has-link-color"><a href="#"><?php echo esc_html_x( 'Malhavi Theme', 'Awards list item text', 'havi' ); ?></a></p>
@@ -69,7 +69,7 @@
 			</div>
 			<!-- /wp:group -->
 
-			<!-- wp:group {"metadata":{"name":"Awards list item"},"style":{"border":{"bottom":{"color":"var:preset|color|contrast-6","style":"solid","width":"1px"}},"spacing":{"padding":{"top":"1rem","bottom":"1rem"}}},"className":"awards-list__item","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+			<!-- wp:group {"metadata":{"name":"Awards List Item"},"style":{"border":{"bottom":{"color":"var:preset|color|contrast-6","style":"solid","width":"1px"}},"spacing":{"padding":{"top":"1rem","bottom":"1rem"}}},"className":"awards-list__item","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 			<div class="wp-block-group awards-list__item" style="border-bottom-color:var(--wp--preset--color--contrast-6);border-bottom-style:solid;border-bottom-width:1px;padding-top:1rem;padding-bottom:1rem">
 				<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"},":hover":{"color":{"text":"var:preset|color|contrast-4"}}}}},"textColor":"contrast"} -->
 				<p class="has-contrast-color has-text-color has-link-color"><a href="#"><?php echo esc_html_x( 'UK Portfolio Plugin', 'Awards list item text', 'havi' ); ?></a></p>
@@ -85,7 +85,7 @@
 			</div>
 			<!-- /wp:group -->
 
-			<!-- wp:group {"metadata":{"name":"Awards list item"},"style":{"border":{"bottom":{"color":"var:preset|color|contrast-6","style":"solid","width":"1px"}},"spacing":{"padding":{"top":"1rem","bottom":"1rem"}}},"className":"awards-list__item","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+			<!-- wp:group {"metadata":{"name":"Awards List Item"},"style":{"border":{"bottom":{"color":"var:preset|color|contrast-6","style":"solid","width":"1px"}},"spacing":{"padding":{"top":"1rem","bottom":"1rem"}}},"className":"awards-list__item","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 			<div class="wp-block-group awards-list__item" style="border-bottom-color:var(--wp--preset--color--contrast-6);border-bottom-style:solid;border-bottom-width:1px;padding-top:1rem;padding-bottom:1rem">
 				<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"},":hover":{"color":{"text":"var:preset|color|contrast-4"}}}}},"textColor":"contrast"} -->
 				<p class="has-contrast-color has-text-color has-link-color"><a href="#"><?php echo esc_html_x( 'Melina Theme', 'Awards list item text', 'havi' ); ?></a></p>
@@ -101,7 +101,7 @@
 			</div>
 			<!-- /wp:group -->
 
-			<!-- wp:group {"metadata":{"name":"Awards list item"},"style":{"border":{"bottom":{"color":"var:preset|color|contrast-6","style":"solid","width":"1px"}},"spacing":{"padding":{"top":"1rem","bottom":"1rem"}}},"className":"awards-list__item","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+			<!-- wp:group {"metadata":{"name":"Awards List Item"},"style":{"border":{"bottom":{"color":"var:preset|color|contrast-6","style":"solid","width":"1px"}},"spacing":{"padding":{"top":"1rem","bottom":"1rem"}}},"className":"awards-list__item","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 			<div class="wp-block-group awards-list__item" style="border-bottom-color:var(--wp--preset--color--contrast-6);border-bottom-style:solid;border-bottom-width:1px;padding-top:1rem;padding-bottom:1rem">
 				<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"},":hover":{"color":{"text":"var:preset|color|contrast-4"}}}}},"textColor":"contrast"} -->
 				<p class="has-contrast-color has-text-color has-link-color"><a href="#"><?php echo esc_html_x( 'Neiman Theme', 'Awards list item text', 'havi' ); ?></a></p>
@@ -117,7 +117,7 @@
 			</div>
 			<!-- /wp:group -->
 
-			<!-- wp:group {"metadata":{"name":"Awards list item"},"style":{"border":{"bottom":{"color":"var:preset|color|contrast-6","style":"solid","width":"1px"}},"spacing":{"padding":{"top":"1rem","bottom":"1rem"}}},"className":"awards-list__item","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+			<!-- wp:group {"metadata":{"name":"Awards List Item"},"style":{"border":{"bottom":{"color":"var:preset|color|contrast-6","style":"solid","width":"1px"}},"spacing":{"padding":{"top":"1rem","bottom":"1rem"}}},"className":"awards-list__item","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 			<div class="wp-block-group awards-list__item" style="border-bottom-color:var(--wp--preset--color--contrast-6);border-bottom-style:solid;border-bottom-width:1px;padding-top:1rem;padding-bottom:1rem">
 				<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"},":hover":{"color":{"text":"var:preset|color|contrast-4"}}}}},"textColor":"contrast"} -->
 				<p class="has-contrast-color has-text-color has-link-color"><a href="#"><?php echo esc_html_x( 'Itonga Theme', 'Awards list item text', 'havi' ); ?></a></p>

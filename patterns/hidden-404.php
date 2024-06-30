@@ -6,10 +6,10 @@
  */
 ?>
 
-<!-- wp:group {"metadata":{"name":"Error container"},"className":"error404-container","layout":{"type":"constrained"}} -->
+<!-- wp:group {"metadata":{"name":"Error Container"},"className":"error404-container","layout":{"type":"constrained"}} -->
 <div class="wp-block-group error404-container">
-	<!-- wp:heading {"textAlign":"center","level":1,"fontSize":"xxxxxx-large"} -->
-	<h1 class="wp-block-heading has-text-align-center has-xxxxxx-large-font-size"><?php echo esc_html_x( 'Error 404', 'Error code for a webpage that is not found.', 'havi' ); ?></h1>
+	<!-- wp:heading {"textAlign":"center","level":1,"fontSize":"xxxx-large"} -->
+	<h1 class="wp-block-heading has-text-align-center has-xxxx-large-font-size"><?php echo esc_html_x( 'Error 404', 'Error code for a webpage that is not found.', 'havi' ); ?></h1>
 	<!-- /wp:heading -->
 
 	<!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"var:preset|spacing|10"}}},"textColor":"contrast-4"} -->

@@ -17,6 +17,21 @@ So why settle for a generic portfolio when you can have Havi - the ultimate Word
 
 ## Style Guid
 
+### Colors:
+
+* Accent 			- Body background color
+
+* Base 				- Inputs background color, buttons color, overlay menu item color, tags hover color
+* Base / Two 		- Submenu item color
+
+* Contrast 			- Body color
+* Contrast / Two 	- Main text color
+* Contrast / Three 	- Buttons hover background and border color
+* Contrast / Four 	- Secondary text color
+* Contrast / Five 	- Inputs border color
+* Contrast / Six 	- Borders color
+* Contrast / Seven 	- Secondary background color
+
 ### Spacing (320-1600px):
 
 * 10: 12px 			0.5

@@ -279,16 +279,6 @@ if ( ! function_exists( 'havi_block_stylesheets' ) ) :
 		);
 
 		wp_enqueue_block_style(
-			'core/post-date',
-			array(
-				'handle' => 'havi-post-date',
-				'src'    => get_parent_theme_file_uri( 'assets/css/blocks/post-date.css' ),
-				'ver'    => $version_string,
-				'path'   => get_parent_theme_file_path( 'assets/css/blocks/post-date.css' ),
-			)
-		);
-
-		wp_enqueue_block_style(
 			'core/post-terms',
 			array(
 				'handle' => 'havi-post-terms',
@@ -430,7 +420,7 @@ if ( ! function_exists( 'havi_head_meta_tags' ) ) :
 	 * @return html
 	 */
 	function havi_head_meta_tags() {
-		echo '<meta name="theme-color" content="rgb(21, 21, 23)" />';
+		echo '<meta name="theme-color" content="rgb(4, 4, 6)" />';
 	}
 
 endif;

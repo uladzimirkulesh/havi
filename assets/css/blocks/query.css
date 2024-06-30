@@ -2,36 +2,6 @@
 Query
 -------------------------------------------------------*/
 
-.wp-block-query.grid > * {
-	grid-column: 1 / -1;
-}
-
-@media only screen and (min-width: 768px) {
-	.wp-block-query.grid > * {
-		grid-column: 3 / 9;
-	}
-}
-
-@media only screen and (min-width: 960px) {
-	.wp-block-query.grid > * {
-		grid-column: 5 / 13;
-	}
-}
-
-.wp-block-query.grid .wp-block-post-template {
-	border-top: 1px solid var(--wp--preset--color--contrast-6);
-}
-
-/*
-Post date
-*/
-
-@media only screen and (min-width: 782px) {
-	.wp-block-query.grid .wp-block-post-date {
-		text-align: right;
-	}
-}
-
 /*-------------------------------------------------------
 Query Item
 -------------------------------------------------------*/

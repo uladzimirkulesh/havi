@@ -11,7 +11,7 @@ Post comments form
 }
 
 .wp-block-post-comments-form .comment-reply-title {
-	margin-bottom: calc(var(--wp--preset--spacing--20) / 4);
+	margin-bottom: 0.5rem;
 	font-size: var(--wp--preset--font-size--xx-large);
 }
 
@@ -30,7 +30,10 @@ Post comments form
 .comment-form .logged-in-as a:active {
 	color: var(--wp--preset--color--contrast);
 	text-decoration: underline;
-	text-decoration-color: var(--wp--preset--color--contrast) !important;
+}
+
+.wp-block-post-comments-form textarea {
+	height: 8lh;
 }
 
 .wp-block-post-comments-form .comment-form-cookies-consent {
@@ -39,7 +42,7 @@ Post comments form
 
 .wp-block-post-comments-form .comment-form-cookies-consent #wp-comment-cookies-consent {
 	top: 0.1rem;
-	margin-top: 0;
+	margin: 0;
 }
 
 .comment-respond .form-submit {
@@ -48,18 +51,17 @@ Post comments form
 
 @media only screen and (min-width: 600px) {
 	.comment-form-author,
-	.comment-form-email,
-	.comment-form-url {
-		width: 32%;
+	.comment-form-email {
+		width: 49%;
 		float: left;
 		margin-bottom: var(--wp--style--block-gap);
 	}
 
-	.comment-form-author,
-	.comment-form-email {
+	.comment-form-author {
 		margin-right: 2%;
 	}
 
+	.comment-form-url,
 	.wp-block-post-comments-form .comment-form-cookies-consent {
 		clear: both;
 	}

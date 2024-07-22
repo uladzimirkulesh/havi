@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: Blogging home template
- * Slug: havi/template-home-blogging
+ * Title: Blogging home template, 1 column
+ * Slug: havi/template-home-blogging-1
  * Template Types: front-page, index, home
  * Inserter: no
  */

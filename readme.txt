@@ -31,7 +31,7 @@ So why settle for a generic portfolio when you can have Havi - the ultimate Word
 * FIXED: Spacings.
 
 = 1.0.0 - June 12, 2024 =
-* Release
+* Release.
 
 == Copyright ==
 

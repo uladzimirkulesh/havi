@@ -1,0 +1,107 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"settings": {
+		"custom": {
+			"style": {
+				"inputBackgroundColor": "var(--wp--preset--color--base)",
+				"inputBorderColor": "var(--wp--preset--color--contrast-4)",
+				"loadingScreenBg": "var(--wp--preset--color--accent)",
+				"menuItemHoverColor": "var(--wp--preset--color--contrast-3)",
+				"submenuBackgroundColor": "var(--wp--preset--color--accent)",
+				"submenuItemColor": "var(--wp--preset--color--base)",
+				"submenuItemHoverColor": "var(--wp--preset--color--base-2)",
+				"overlaymenuBackgroundColor": "var(--wp--preset--color--accent)",
+				"overlaymenuItemColor": "var(--wp--preset--color--base)",
+				"overlaymenuItemHoverColor": "var(--wp--preset--color--base-2)"
+			}
+		},
+		"color": {
+			"defaultPalette": false,
+			"defaultGradients": false,
+			"palette": [
+				{
+					"color": "#afafaf",
+					"name": "Accent",
+					"slug": "accent"
+				},
+				{
+					"color": "rgb(14, 14, 14)",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"color": "rgba(14, 14, 14, 0.6)",
+					"name": "Base / Two",
+					"slug": "base-2"
+				},
+				{
+					"color": "rgb(255, 255, 255)",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "rgba(255, 255, 255, 0.75)",
+					"name": "Contrast / Two",
+					"slug": "contrast-2"
+				},
+				{
+					"color": "rgba(255, 255, 255, 0.5)",
+					"name": "Contrast / Three",
+					"slug": "contrast-3"
+				},
+				{
+					"color": "rgba(255, 255, 255, 0.25)",
+					"name": "Contrast / Four",
+					"slug": "contrast-4"
+				},
+				{
+					"color": "rgba(255, 255, 255, 0.15)",
+					"name": "Contrast / Five",
+					"slug": "contrast-5"
+				},
+				{
+					"color": "rgba(255, 255, 255, 0.07)",
+					"name": "Contrast / Six",
+					"slug": "contrast-6"
+				}
+			]
+		}
+	},
+	"styles": {
+		"elements": {
+			"button": {
+				"color": {
+					"background": "var(--wp--preset--color--accent)"
+				},
+				"border": {
+					"color": "var(--wp--preset--color--accent)"
+				},
+				":hover": {
+					"color": {
+						"text": "var(--wp--preset--color--accent)"
+					},
+					"border": {
+						"color": "var(--wp--preset--color--accent)"
+					}
+				},
+				":focus": {
+					"color": {
+						"text": "var(--wp--preset--color--accent)"
+					},
+					"border": {
+						"color": "var(--wp--preset--color--accent)"
+					}
+				},
+				":active": {
+					"color": {
+						"text": "var(--wp--preset--color--accent)"
+					},
+					"border": {
+						"color": "var(--wp--preset--color--accent)"
+					}
+				}
+			}
+		}
+	}
+}

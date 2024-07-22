@@ -7,46 +7,26 @@
  */
 ?>
 
-<!-- wp:group {"tagName":"section","metadata":{"name":"Section Recent Projects"},"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|40","margin":{"bottom":"var:preset|spacing|70"}}},"className":"section section--recent-projects","layout":{"type":"default"}} -->
-<section class="wp-block-group alignwide section section--recent-projects" id="section-recent-projects" style="margin-bottom:var(--wp--preset--spacing--70)">
-	<!-- wp:group {"tagName":"header","metadata":{"name":"Section Header"},"className":"section__header","layout":{"type":"default"}} -->
-	<header class="wp-block-group section__header">
-		<!-- wp:heading {"fontSize":"xxxxx-large"} -->
-		<h2 class="wp-block-heading has-xxxxx-large-font-size"><?php echo esc_html_x( 'Recent Projects', 'Recent projects section title', 'havi' ); ?></h2>
-		<!-- /wp:heading -->
-	</header>
-	<!-- /wp:group -->
+<!-- wp:group {"metadata":{"name":"Resent projects"},"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"className":"section section--recent-projects"} -->
+<div class="wp-block-group section section--recent-projects">
+	<!-- wp:heading {"fontSize":"x-large"} -->
+	<h2 class="wp-block-heading has-x-large-font-size"><a href="/portfolio"><?php echo esc_html_x( 'Recent Projects', 'Recent projects section title', 'havi' ); ?></a></h2>
+	<!-- /wp:heading -->
 
-	<!-- wp:group {"metadata":{"name":"Section Content"},"className":"section__content","layout":{"type":"default"}} -->
-	<div class="wp-block-group section__content">
-		<!-- wp:query {"query":{"perPage":"4","pages":0,"offset":0,"postType":"uk-project","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false,"parents":[]},"align":"wide","className":"uk-portfolio__query"} -->
-		<div class="wp-block-query alignwide uk-portfolio__query">
-			<!-- wp:post-template {"layout":{"type":"grid","columnCount":2}} -->
-				<!-- wp:post-featured-image {"isLink":true,"aspectRatio":"4/3","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|10"}}}} /-->
+	<!-- wp:query {"query":{"perPage":"6","pages":0,"offset":0,"postType":"uk-project","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false,"parents":[]}} -->
+	<div class="wp-block-query">
+		<!-- wp:post-template {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}}} -->
+			<!-- wp:post-title {"level":3,"isLink":true,"fontSize":"medium"} /-->
 
-				<!-- wp:group {"metadata":{"name":"Meta"},"className":"entry-meta","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-				<div class="wp-block-group entry-meta">
-					<!-- wp:post-title {"isLink":true,"style":{"spacing":{"margin":{"top":"0"}}},"fontSize":"medium"} /-->
+			<!-- wp:post-excerpt {"showMoreOnNewLine":false,"excerptLength":23,"style":{"spacing":{"margin":{"top":"1rem","bottom":"1rem"}}}} /-->
 
-					<!-- wp:post-date {"format":"M, Y","style":{"typography":{"fontSize":"0.9375rem"}}} /-->
-				</div>
-				<!-- /wp:group -->
-			<!-- /wp:post-template -->
-		</div>
-		<!-- /wp:query -->
+			<!-- wp:post-date {"format":"M j, Y"} /-->
+		<!-- /wp:post-template -->
+
+		<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"},":hover":{"color":{"text":"var:preset|color|contrast-3"}}}},"spacing":{"margin":{"top":"var:preset|spacing|40"}}},"textColor":"contrast-3","fontSize":"small"} -->
+		<p class="has-contrast-3-color has-text-color has-link-color has-small-font-size" style="margin-top:var(--wp--preset--spacing--40)"><a href="/portfolio"><?php echo esc_html_x( 'Browse all projects', 'Recent projects section text', 'havi' ); ?></a></p>
+		<!-- /wp:paragraph -->
 	</div>
-	<!-- /wp:group -->
-
-	<!-- wp:group {"tagName":"footer","metadata":{"name":"Section Footer"},"style":{"spacing":{"margin":{"top":"var:preset|spacing|40"}}},"className":"section__footer","layout":{"type":"default"}} -->
-	<footer class="wp-block-group section__footer" style="margin-top:var(--wp--preset--spacing--40)">
-		<!-- wp:buttons -->
-		<div class="wp-block-buttons">
-			<!-- wp:button -->
-			<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/portfolio/"><?php echo esc_html_x( 'Browse All', 'Recent projects section button text', 'havi' ); ?></a></div>
-			<!-- /wp:button -->
-		</div>
-		<!-- /wp:buttons -->
-	</footer>
-	<!-- /wp:group -->
-</section>
+	<!-- /wp:query -->
+</div>
 <!-- /wp:group -->

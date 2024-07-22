@@ -7,48 +7,26 @@
  */
 ?>
 
-<!-- wp:group {"tagName":"section","metadata":{"name":"Section Latest Articles"},"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|40","margin":{"bottom":"var:preset|spacing|70"}}},"className":"section section--latest-articles","layout":{"type":"default"}} -->
-<section class="wp-block-group alignwide section section--latest-articles" id="section-latest-articles" style="margin-bottom:var(--wp--preset--spacing--70)">
-	<!-- wp:group {"tagName":"header","metadata":{"name":"Section Header"},"className":"section__header","layout":{"type":"default"}} -->
-	<header class="wp-block-group section__header">
-		<!-- wp:heading {"fontSize":"xxxxx-large"} -->
-		<h2 class="wp-block-heading has-xxxxx-large-font-size"><?php echo esc_html_x( 'Latest Articles', 'Latest articles section title', 'havi' ); ?></h2>
-		<!-- /wp:heading -->
-	</header>
-	<!-- /wp:group -->
+<!-- wp:group {"metadata":{"name":"Latest articles"},"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"className":"section section--latest-articles","layout":{"type":"default"}} -->
+<div class="wp-block-group section section--latest-articles">
+	<!-- wp:heading {"fontSize":"x-large"} -->
+	<h2 class="wp-block-heading has-x-large-font-size"><a href="/blog"><?php echo esc_html_x( 'Thoughts & ideas', 'Latest articles section title', 'havi' ); ?></a></h2>
+	<!-- /wp:heading -->
 
-	<!-- wp:group {"metadata":{"name":"Section Content"},"className":"section__content grid","layout":{"type":"default"}} -->
-	<div class="wp-block-group section__content grid">
-		<!-- wp:query {"query":{"perPage":"7","pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false,"parents":[]},"layout":{"type":"default"}} -->
-		<div class="wp-block-query">
-			<!-- wp:post-template {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"default"}} -->
-				<!-- wp:columns {"verticalAlignment":"center","style":{"border":{"bottom":{"color":"var:preset|color|contrast-6","style":"solid","width":"1px"}},"spacing":{"blockGap":{"top":"0.5rem","left":"var:preset|spacing|20"},"margin":{"top":"0","bottom":"0"},"padding":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20"}}}} -->
-				<div class="wp-block-columns are-vertically-aligned-center" style="border-bottom-color:var(--wp--preset--color--contrast-6);border-bottom-style:solid;border-bottom-width:1px;margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--20)">
-					<!-- wp:column {"verticalAlignment":"center","width":"80%"} -->
-					<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:80%">
-						<!-- wp:post-title {"level":3,"isLink":true,"style":{"typography":{"lineHeight":"1.33333"}},"fontSize":"x-large"} /-->
-					</div>
-					<!-- /wp:column -->
+	<!-- wp:query {"query":{"perPage":"6","pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false}} -->
+	<div class="wp-block-query">
+		<!-- wp:post-template {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}}} -->
+			<!-- wp:post-title {"level":3,"isLink":true,"fontSize":"medium"} /-->
 
-					<!-- wp:column {"verticalAlignment":"center","width":"20%"} -->
-					<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:20%">
-						<!-- wp:post-date {"format":"M j, Y","style":{"typography":{"fontSize":"0.9375rem"}}} /-->
-					</div>
-					<!-- /wp:column -->
-				</div>
-				<!-- /wp:columns -->
-			<!-- /wp:post-template -->
-		</div>
-		<!-- /wp:query -->
+			<!-- wp:post-excerpt {"showMoreOnNewLine":false,"excerptLength":23,"style":{"spacing":{"margin":{"top":"1rem","bottom":"1rem"}}}} /-->
 
-		<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}}} -->
-		<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--30)">
-			<!-- wp:button -->
-			<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/blog/"><?php echo esc_html_x( 'Read All', 'Latest articles section button text', 'havi' ); ?></a></div>
-			<!-- /wp:button -->
-		</div>
-		<!-- /wp:buttons -->
+			<!-- wp:post-date {"format":"M j, Y"} /-->
+		<!-- /wp:post-template -->
+
+		<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"},":hover":{"color":{"text":"var:preset|color|contrast-3"}}}},"spacing":{"margin":{"top":"var:preset|spacing|40"}}},"textColor":"contrast-3","fontSize":"small"} -->
+		<p class="has-contrast-3-color has-text-color has-link-color has-small-font-size" style="margin-top:var(--wp--preset--spacing--40)"><a href="/blog"><?php echo esc_html_x( 'Read all articles', 'Latest articles section button text', 'havi' ); ?></a></p>
+		<!-- /wp:paragraph -->
 	</div>
-	<!-- /wp:group -->
-</section>
+	<!-- /wp:query -->
+</div>
 <!-- /wp:group -->

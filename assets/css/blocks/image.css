@@ -10,6 +10,6 @@ Add additional margin to the image block within post content.
 	margin-top: calc(var(--wp--style--block-gap) * 2);
 }
 
-.wp-block-post-content :where(p, .wp-block-heading, span[id^="more"]) + .wp-block-image:not([style*="margin-bottom"]) {
+.wp-block-post-content :where(p, .wp-block-heading, span[id^="more"]) + .wp-block-image:not([style*="margin-bottom"]):not(:last-child) {
 	margin-bottom: calc(var(--wp--style--block-gap) * 2);
 }

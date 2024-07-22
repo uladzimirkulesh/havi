@@ -7,7 +7,7 @@ Description: Introducing Havi - the ultimate WordPress theme for digital designe
 Requires at least: 6.1
 Tested up to: 6.5
 Requires PHP: 5.6
-Version: 1.0.01111111111111111111111111111111
+Version: 1.0.033333333
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 Text Domain: havi
@@ -33,6 +33,13 @@ html {
 
 figcaption {
 	text-align: center;
+}
+
+*:focus {
+	outline-color: invert;
+	outline-style: solid;
+	outline-width: 1px;
+	outline-offset: -1px;
 }
 
 /*
@@ -63,6 +70,10 @@ a,
 
 a {
 	text-decoration-thickness: 1px !important;
+}
+
+a:hover:focus {
+	outline: 0;
 }
 
 .wp-element-button,
@@ -127,7 +138,7 @@ Forms
 -------------------------------------------------------*/
 
 ::placeholder {
-	color: var(--wp--preset--color--contrast-4);
+	color: var(--wp--preset--color--contrast-3);
 }
 
 ::-moz-placeholder {
@@ -156,7 +167,7 @@ label,
 	display: block;
 	margin-bottom: 0.25rem;
 
-	color: var(--wp--preset--color--contrast-4);
+	color: var(--wp--preset--color--contrast-3);
 	font-size: var(--wp--preset--font-size--small);
 	font-weight: var(--wp--custom--font-weight--text);
 }
@@ -305,7 +316,7 @@ Entry meta
 	position: relative;
 }
 
-.entry-meta > .wp-block-group > p:first-child {
+.entry-meta p:first-child {
 	display: none;
 }
 
@@ -314,14 +325,14 @@ Read more link
 */
 
 .wp-block-post-excerpt__more-link {
-	color: var(--wp--preset--color--contrast-4);
+	color: var(--wp--preset--color--contrast-3);
 	font-size: var(--wp--preset--font-size--small);
 }
 
 .wp-block-post-excerpt__more-link:hover,
 .wp-block-post-excerpt__more-link:focus,
 .wp-block-post-excerpt__more-link:active {
-	color: var(--wp--preset--color--contrast-4);
+	color: var(--wp--preset--color--contrast-3);
 }
 
 /*

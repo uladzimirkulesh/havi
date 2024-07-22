@@ -109,6 +109,9 @@ if ( ! function_exists( 'havi_scripts' ) ) :
 			)
 		);
 
+		// Enqueue global scripts.
+		wp_enqueue_script( 'havi-global' );
+
 		// Register animations scripts.
 		wp_register_script(
 			'havi-animations',
@@ -377,8 +380,9 @@ if ( ! function_exists( 'havi_register_block_pattern_categories' ) ) :
 
 		$block_pattern_categories = array(
 			'havi-theme' => array( 'label' => esc_html__( 'Havi Theme', 'havi' ) ),
-			'portfolio' => array( 'label' => esc_html__( 'Portfolio', 'havi' ) ),
-			'page'      => array( 'label' => esc_html__( 'Pages', 'havi' ) )
+			'portfolio'  => array( 'label' => esc_html__( 'Portfolio', 'havi' ) ),
+			'page'       => array( 'label' => esc_html__( 'Pages', 'havi' ) ),
+			'contact'    => array( 'label' => esc_html__( 'Contact', 'havi' ) )
 		);
 
 		/**

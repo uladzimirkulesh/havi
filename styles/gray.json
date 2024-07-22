@@ -1,0 +1,77 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 2,
+	"title": "Gray",
+	"settings": {
+		"custom": {
+			"style": {
+				"inputBackgroundColor": "var(--wp--preset--color--accent)",
+				"inputBorderColor": "var(--wp--preset--color--contrast-4)",
+				"loadingScreenBg": "var(--wp--preset--color--contrast)",
+				"menuItemHoverColor": "var(--wp--preset--color--contrast-3)",
+				"submenuBackgroundColor": "var(--wp--preset--color--contrast)",
+				"submenuItemColor": "var(--wp--preset--color--base-2)",
+				"submenuItemHoverColor": "var(--wp--preset--color--base)",
+				"overlaymenuBackgroundColor": "var(--wp--preset--color--contrast)",
+				"overlaymenuItemColor": "var(--wp--preset--color--base)",
+				"overlaymenuItemHoverColor": "var(--wp--preset--color--base-2)"
+			}
+		},
+		"color": {
+			"defaultPalette": false,
+			"defaultGradients": false,
+			"palette": [
+				{
+					"color": "#d4d4d4",
+					"name": "Accent",
+					"slug": "accent"
+				},
+				{
+					"color": "rgb(255, 255, 255)",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"color": "rgba(255, 255, 255, 0.6)",
+					"name": "Base / Two",
+					"slug": "base-2"
+				},
+				{
+					"color": "rgb(16, 16, 16)",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "rgba(16, 16, 16, 0.9)",
+					"name": "Contrast / Two",
+					"slug": "contrast-2"
+				},
+				{
+					"color": "rgba(16, 16, 16, 0.5)",
+					"name": "Contrast / Three",
+					"slug": "contrast-3"
+				},
+				{
+					"color": "rgba(16, 16, 16, 0.15)",
+					"name": "Contrast / Four",
+					"slug": "contrast-4"
+				},
+				{
+					"color": "rgba(16, 16, 16, 0.15)",
+					"name": "Contrast / Five",
+					"slug": "contrast-5"
+				},
+				{
+					"color": "rgba(16, 16, 16, 0.04)",
+					"name": "Contrast / Six",
+					"slug": "contrast-6"
+				}
+			]
+		}
+	},
+	"styles": {
+		"color": {
+			"background": "var(--wp--preset--color--accent)"
+		}
+	}
+}

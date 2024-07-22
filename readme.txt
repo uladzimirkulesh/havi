@@ -2,21 +2,23 @@
 
 Contributors: Uladzimir Kulesh
 Requires at least: 6.1
-Tested up to: 6.5
+Tested up to: 6.6
 Requires PHP: 5.6
-Stable tag: 1.0.1
+Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Introducing Havi - the ultimate WordPress theme for digital designers looking to showcase their portfolio in style!
+Welcome to Havi, the ultimate WordPress theme crafted specifically for web developers. Whether you're showcasing your portfolio, sharing your latest projects, or offering your services, Havi provides the perfect platform to present your work in a sleek, professional, and engaging manner.
 
-With its sleek and modern design, Havi is the perfect platform to showcase your creative work and impress potential clients. Whether you're a graphic designer, web developer, or photographer, Havi has got you covered.
+Havi is tailored for web developers, featuring a clean and modern design that highlights your technical skills and creativity. The minimalist layout ensures that your work takes center stage.
 
-Featuring a fully customizable layout, Havi allows you to effortlessly create a stunning portfolio that truly reflects your unique style and brand. Choose from a variety of pre-designed templates or create your own from scratch - the possibilities are endless!
+Havi is fully responsive, ensuring your website looks stunning on all devices, from desktops to smartphones. Your portfolio will always shine, no matter where it's viewed.
 
-So why settle for a generic portfolio when you can have Havi - the ultimate WordPress theme for digital designers. Get ready to showcase your talent and elevate your brand with Havi. Try it now!
+Get started quickly with pre-built templates for homepages, about pages, services, and contact pages. Each template is designed to provide a seamless user experience and convert visitors into clients.
+
+Share your knowledge and expertise with Havi’s elegant blog layouts. Engage your audience with insightful articles, tutorials, and industry news, all presented in a clean and readable format.
 
 == Installation ==
 
@@ -27,10 +29,7 @@ So why settle for a generic portfolio when you can have Havi - the ultimate Word
 
 == Changelog ==
 
-= 1.0.1 - June 17, 2024 =
-* FIXED: Spacings.
-
-= 1.0.0 - June 12, 2024 =
+= 1.0.0 - July 22, 2024 =
 * Release.
 
 == Copyright ==

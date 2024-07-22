@@ -22,5 +22,9 @@
 		<!-- wp:query-pagination-numbers /-->
 		<!-- wp:query-pagination-next /-->
 	<!-- /wp:query-pagination -->
+
+	<!-- wp:query-no-results -->
+		<!-- wp:pattern {"slug":"havi/hidden-no-results"} /-->
+	<!-- /wp:query-no-results -->
 </div>
 <!-- /wp:query -->

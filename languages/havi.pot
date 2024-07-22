@@ -1,0 +1,898 @@
+# Copyright (C) 2024 Uladzimir Kulesh
+# This file is distributed under the same license as the Havi package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Havi\n"
+"Report-Msgid-Bugs-To: https://uladzimirkulesh.com\n"
+"POT-Creation-Date: 2024-07-22 16:53+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Uladzimir Kulesh <hello@uladzimirkulesh.com>\n"
+"Language-Team: Uladzimir Kulesh <hello@uladzimirkulesh.com>\n"
+"Language: English\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.11; wp-6.6\n"
+"X-Domain: havi"
+
+#: patterns/text-about-me.php:13
+msgctxt "About me section text"
+msgid ""
+"Hello, I'm David, a passionate web developer with a knack for turning ideas "
+"into stunning digital experiences. I bring your visions to life on the "
+"screen."
+msgstr ""
+
+#: patterns/text-about-me.php:17
+msgctxt "About me section text"
+msgid ""
+"My journey into web development began with a simple fascination for "
+"technology and design. Over the years, I honed my skills, delving deep into "
+"the world of coding, user experience, and digital artistry. Today, I stand "
+"as a seasoned professional, ready to tackle projects of all sizes and "
+"complexities."
+msgstr ""
+
+#: patterns/section-about-me.php:17
+msgctxt "About me section title"
+msgid ""
+"I'm a web developer with a knack for turning ideas into stunning digital "
+"experiences."
+msgstr ""
+
+#: patterns/hidden-404.php:23
+msgid "Back to Home"
+msgstr ""
+
+#. "Code by" text.
+#: patterns/footer-default.php:22
+#, php-format
+msgid "Code by %s"
+msgstr ""
+
+#: styles/fog.json:1 styles/brown.json:1 styles/gray.json:1 styles/dark.json:1
+msgctxt "Color name"
+msgid "Accent"
+msgstr ""
+
+#: styles/fog.json:1 styles/brown.json:1
+msgctxt "Color name"
+msgid "Accent / Three"
+msgstr ""
+
+#: styles/fog.json:1 styles/brown.json:1 styles/dark.json:1
+msgctxt "Color name"
+msgid "Accent / Two"
+msgstr ""
+
+#: theme.json:1 styles/fog.json:1 styles/brown.json:1 styles/gray.json:1
+#: styles/dark.json:1
+msgctxt "Color name"
+msgid "Base"
+msgstr ""
+
+#: theme.json:1 styles/fog.json:1 styles/brown.json:1 styles/gray.json:1
+#: styles/dark.json:1
+msgctxt "Color name"
+msgid "Base / Two"
+msgstr ""
+
+#: theme.json:1 styles/fog.json:1 styles/brown.json:1 styles/gray.json:1
+#: styles/dark.json:1
+msgctxt "Color name"
+msgid "Contrast"
+msgstr ""
+
+#: theme.json:1 styles/fog.json:1 styles/brown.json:1 styles/gray.json:1
+#: styles/dark.json:1
+msgctxt "Color name"
+msgid "Contrast / Five"
+msgstr ""
+
+#: theme.json:1 styles/fog.json:1 styles/brown.json:1 styles/gray.json:1
+#: styles/dark.json:1
+msgctxt "Color name"
+msgid "Contrast / Four"
+msgstr ""
+
+#: theme.json:1 styles/fog.json:1 styles/brown.json:1 styles/gray.json:1
+#: styles/dark.json:1
+msgctxt "Color name"
+msgid "Contrast / Six"
+msgstr ""
+
+#: theme.json:1 styles/fog.json:1 styles/brown.json:1 styles/gray.json:1
+#: styles/dark.json:1
+msgctxt "Color name"
+msgid "Contrast / Three"
+msgstr ""
+
+#: theme.json:1 styles/fog.json:1 styles/brown.json:1 styles/gray.json:1
+#: styles/dark.json:1
+msgctxt "Color name"
+msgid "Contrast / Two"
+msgstr ""
+
+#: functions.php:385
+msgid "Contact"
+msgstr ""
+
+#: patterns/text-contact-me.php:17
+msgctxt "Contact me section text"
+msgid ""
+"I'm excited to collaborate with you on your next web development project! "
+"Whether you have a question, need a quote, or want to discuss your ideas, "
+"I'm here to help. Reach out using any of the methods below, and let's start "
+"building something great together."
+msgstr ""
+
+#: patterns/footer-default.php:15
+msgctxt "Copyright text"
+msgid "© 2024 all rights reserved"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Custom template name"
+msgid "Blank (Alternative 1)"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Custom template name"
+msgid "Blank (Alternative 2)"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Custom template name"
+msgid "Blank template"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Custom template name"
+msgid "Project Archive"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Custom template name"
+msgid "Project Archive Category"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Custom template name"
+msgid "Project Archive Tag"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Custom template name"
+msgid "Project Single"
+msgstr ""
+
+#: patterns/hidden-404.php:12
+msgctxt "Error code for a webpage that is not found."
+msgid "Error 404"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font family name"
+msgid "Inter"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font family name"
+msgid "Monospace Font"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font family name"
+msgid "System Sans-serif"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "2X Large"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "3X Large"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "4X Large"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "Extra Large"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "Large"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "Medium"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "Normal"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "Small"
+msgstr ""
+
+#: patterns/text-get-in-touch.php:71 patterns/text-get-in-touch.php:91
+#: patterns/text-get-in-touch.php:111
+msgctxt "Get in touch section text"
+msgid "<a href=\"#\">@daviddev</a>"
+msgstr ""
+
+#: patterns/text-get-in-touch.php:31
+msgctxt "Get in touch section text"
+msgid "<a href=\"mailto:#\">hello@daviddev.com</a>"
+msgstr ""
+
+#: patterns/text-get-in-touch.php:51
+msgctxt "Get in touch section text"
+msgid "<a href=\"tel:#\">+44 209 555 014</a>"
+msgstr ""
+
+#: patterns/text-get-in-touch.php:23
+msgctxt "Get in touch section text"
+msgid "Email"
+msgstr ""
+
+#: patterns/text-get-in-touch.php:83
+msgctxt "Get in touch section text"
+msgid "Facebook"
+msgstr ""
+
+#: patterns/text-get-in-touch.php:125
+msgctxt "Get in touch section text"
+msgid ""
+"I strive to respond to all inquiries within 24 hours. Your time is valuable, "
+"and I'm committed to providing prompt and thorough responses to all your "
+"questions and needs."
+msgstr ""
+
+#: patterns/text-get-in-touch.php:63
+msgctxt "Get in touch section text"
+msgid "LinkedIn"
+msgstr ""
+
+#: patterns/text-get-in-touch.php:43
+msgctxt "Get in touch section text"
+msgid "Phone"
+msgstr ""
+
+#: patterns/text-get-in-touch.php:121
+msgctxt "Get in touch section text"
+msgid "Response Time"
+msgstr ""
+
+#: patterns/text-get-in-touch.php:103
+msgctxt "Get in touch section text"
+msgid "X"
+msgstr ""
+
+#: patterns/text-get-in-touch.php:13
+msgctxt "Get in touch section title"
+msgid "Get in Touch"
+msgstr ""
+
+#. Name of the theme
+msgid "Havi"
+msgstr ""
+
+#: functions.php:382
+msgid "Havi Theme"
+msgstr ""
+
+#. Author URI of the theme
+#: patterns/footer-default.php:23
+msgid "https://uladzimirkulesh.com"
+msgstr ""
+
+#. URI of the theme
+msgid "https://uladzimirkulesh.com/portfolio/havi"
+msgstr ""
+
+#: patterns/hidden-no-results.php:15
+msgctxt "Label"
+msgid "Search"
+msgstr ""
+
+#: patterns/section-latest-articles.php:27
+msgctxt "Latest articles section button text"
+msgid "Read all articles"
+msgstr ""
+
+#: patterns/section-latest-articles.php:13
+msgctxt "Latest articles section title"
+msgid "Thoughts & ideas"
+msgstr ""
+
+#: patterns/cta-lets-connect.php:28
+msgctxt "Let's connect section button text"
+msgid "Contact Me"
+msgstr ""
+
+#: patterns/cta-lets-connect.php:21
+msgctxt "Let's connect section text"
+msgid ""
+"Whether you're looking to build a new website from scratch, revamp your "
+"existing site, or need ongoing development support, I'm here to help. Let's "
+"connect and discuss how we can turn your vision into a reality."
+msgstr ""
+
+#: patterns/text-lets-connect.php:17
+msgctxt "Let's connect section text"
+msgid ""
+"Your journey to a remarkable web presence starts here. Contact me today, and "
+"let's turn your vision into a reality. I look forward to hearing from you!"
+msgstr ""
+
+#: patterns/cta-lets-connect.php:17
+msgctxt "Let's connect section title"
+msgid "Let's Build Something Great Together!"
+msgstr ""
+
+#: patterns/text-lets-connect.php:13
+msgctxt "Let's connect section title"
+msgid "Let's Connect!"
+msgstr ""
+
+#: patterns/hidden-no-results.php:12
+msgctxt "Message explaining that there are no results returned from a search"
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: patterns/hidden-404.php:16
+msgctxt "Message to convey that a webpage could not be found"
+msgid "The page you are looking for cannot be found."
+msgstr ""
+
+#: functions.php:384
+msgid "Pages"
+msgstr ""
+
+#: patterns/page-about-me.php:2
+msgctxt "Pattern title"
+msgid "About me page"
+msgstr ""
+
+#: patterns/text-about-me.php:2 patterns/section-about-me.php:2
+msgctxt "Pattern title"
+msgid "About me section"
+msgstr ""
+
+#: patterns/template-archive-blogging.php:2
+msgctxt "Pattern title"
+msgid "Blogging archive template, 3 columns"
+msgstr ""
+
+#: patterns/template-home-blogging-1.php:2
+msgctxt "Pattern title"
+msgid "Blogging home template, 1 column"
+msgstr ""
+
+#: patterns/template-home-blogging-2.php:2
+msgctxt "Pattern title"
+msgid "Blogging home template, 3 columns"
+msgstr ""
+
+#: patterns/template-search-blogging.php:2
+msgctxt "Pattern title"
+msgid "Blogging search template, 3 columns"
+msgstr ""
+
+#: patterns/text-contact-me.php:2
+msgctxt "Pattern title"
+msgid "Contact me section"
+msgstr ""
+
+#: patterns/page-contact.php:2
+msgctxt "Pattern title"
+msgid "Contact page"
+msgstr ""
+
+#: patterns/footer-default.php:2
+msgctxt "Pattern title"
+msgid "Default footer"
+msgstr ""
+
+#: patterns/text-get-in-touch.php:2
+msgctxt "Pattern title"
+msgid "Get in touch section"
+msgstr ""
+
+#: patterns/hidden-404.php:2
+msgctxt "Pattern title"
+msgid "Hidden 404"
+msgstr ""
+
+#: patterns/hidden-comments.php:2
+msgctxt "Pattern title"
+msgid "Hidden comments"
+msgstr ""
+
+#: patterns/hidden-no-results.php:2
+msgctxt "Pattern title"
+msgid "Hidden no results content"
+msgstr ""
+
+#: patterns/section-latest-articles.php:2
+msgctxt "Pattern title"
+msgid "Latest articles section"
+msgstr ""
+
+#: patterns/cta-lets-connect.php:2 patterns/text-lets-connect.php:2
+msgctxt "Pattern title"
+msgid "Let's connect section"
+msgstr ""
+
+#: patterns/posts-1-col.php:2
+msgctxt "Pattern title"
+msgid "List of posts, 1 column"
+msgstr ""
+
+#: patterns/posts-3-col.php:2
+msgctxt "Pattern title"
+msgid "List of posts, 3 columns"
+msgstr ""
+
+#: patterns/projects-3-col.php:2
+msgctxt "Pattern title"
+msgid "List of projects, 3 columns"
+msgstr ""
+
+#: patterns/page-home-personal.php:2
+msgctxt "Pattern title"
+msgid "Personal home page"
+msgstr ""
+
+#: patterns/template-home-personal.php:2
+msgctxt "Pattern title"
+msgid "Personal home template"
+msgstr ""
+
+#: patterns/hidden-portfolio-page-header.php:2
+msgctxt "Pattern title"
+msgid "Portfolio Page Header"
+msgstr ""
+
+#: patterns/hidden-post-meta.php:2
+msgctxt "Pattern title"
+msgid "Post Meta"
+msgstr ""
+
+#: patterns/section-recent-projects.php:2
+msgctxt "Pattern title"
+msgid "Recent projects section"
+msgstr ""
+
+#: patterns/text-services.php:2
+msgctxt "Pattern title"
+msgid "Services section"
+msgstr ""
+
+#: patterns/text-why-i-am.php:2
+msgctxt "Pattern title"
+msgid "Why I am section"
+msgstr ""
+
+#: patterns/text-work-experience.php:2
+msgctxt "Pattern title"
+msgid "Work experience section"
+msgstr ""
+
+#: patterns/page-home-personal.php:15
+msgctxt "Personal home page title"
+msgid "Hello, I am<br>David Gearhart"
+msgstr ""
+
+#: patterns/hidden-no-results.php:15
+msgctxt "Placeholder for search field"
+msgid "Search..."
+msgstr ""
+
+#: functions.php:383
+msgid "Portfolio"
+msgstr ""
+
+#: patterns/hidden-portfolio-page-header.php:12
+msgctxt "Portfolio page title"
+msgid "Favorite projects<br>and fun little experiments"
+msgstr ""
+
+#: patterns/template-home-blogging-2.php:17
+msgctxt "Portfolio page title"
+msgid "My thoughts about<br>design and development"
+msgstr ""
+
+#: patterns/hidden-post-meta.php:11
+msgctxt "Prefix for the post category block: in category name"
+msgid "Published in "
+msgstr ""
+
+#: patterns/section-recent-projects.php:27
+msgctxt "Recent projects section text"
+msgid "Browse all projects"
+msgstr ""
+
+#: patterns/section-recent-projects.php:13
+msgctxt "Recent projects section title"
+msgid "Recent Projects"
+msgstr ""
+
+#: patterns/hidden-no-results.php:15
+msgid "Search"
+msgstr ""
+
+#: patterns/text-services.php:53
+msgctxt "Services section text"
+msgid "Content Management Systems"
+msgstr ""
+
+#: patterns/text-services.php:37
+msgctxt "Services section text"
+msgid "E-commerce Solutions"
+msgstr ""
+
+#: patterns/text-services.php:81
+msgctxt "Services section text"
+msgid ""
+"Every project is a new adventure. I take the time to understand your goals, "
+"your audience, and your brand to ensure the final product aligns perfectly "
+"with your vision. My process is collaborative, transparent, and iterative, "
+"ensuring you are involved and informed every step of the way."
+msgstr ""
+
+#: patterns/text-services.php:29
+msgctxt "Services section text"
+msgid ""
+"From concept to launch, I build websites that are visually appealing and "
+"functionally robust."
+msgstr ""
+
+#: patterns/text-services.php:41
+msgctxt "Services section text"
+msgid ""
+"Helping businesses thrive online with custom e-commerce platforms tailored "
+"to their needs."
+msgstr ""
+
+#: patterns/text-services.php:17
+msgctxt "Services section text"
+msgid ""
+"I specialize in creating responsive, user-friendly websites that not only "
+"look great but also perform seamlessly. My services include:"
+msgstr ""
+
+#: patterns/text-services.php:57
+msgctxt "Services section text"
+msgid ""
+"Implementing and customizing CMS solutions like WordPress, Joomla, and "
+"Drupal for easy content management."
+msgstr ""
+
+#: patterns/text-services.php:77
+msgctxt "Services section text"
+msgid "My Approach"
+msgstr ""
+
+#: patterns/text-services.php:69
+msgctxt "Services section text"
+msgid ""
+"Optimizing websites to rank higher in search results and providing insights "
+"through detailed analytics."
+msgstr ""
+
+#: patterns/text-services.php:65
+msgctxt "Services section text"
+msgid "SEO and Analytics"
+msgstr ""
+
+#: patterns/text-services.php:25
+msgctxt "Services section text"
+msgid "Website Development"
+msgstr ""
+
+#: patterns/text-services.php:13
+msgctxt "Services section title"
+msgid "What I Do"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Space size name"
+msgid "1"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Space size name"
+msgid "2"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Space size name"
+msgid "3"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Space size name"
+msgid "4"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Space size name"
+msgid "5"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Space size name"
+msgid "6"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Space size name"
+msgid "7"
+msgstr ""
+
+#: styles/brown.json:1
+msgctxt "Style variation name"
+msgid "Brown"
+msgstr ""
+
+#: styles/dark.json:1
+msgctxt "Style variation name"
+msgid "Dark"
+msgstr ""
+
+#: styles/fog.json:1
+msgctxt "Style variation name"
+msgid "Fog"
+msgstr ""
+
+#: styles/gray.json:1
+msgctxt "Style variation name"
+msgid "Gray"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Template part name"
+msgid "Footer"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Template part name"
+msgid "Header"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Template part name"
+msgid "Loading Screen"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Template part name"
+msgid "Post Meta"
+msgstr ""
+
+#: inc/theme.php:93
+msgctxt "Theme admin page button text"
+msgid "Live Preview"
+msgstr ""
+
+#: inc/theme.php:91
+msgctxt "Theme admin page button text"
+msgid "Theme Homepage"
+msgstr ""
+
+#: inc/theme.php:86
+msgctxt "Theme admin page text"
+msgid ""
+"Get started quickly with pre-built templates for homepages, about pages, "
+"services, and contact pages. Each template is designed to provide a seamless "
+"user experience and convert visitors into clients."
+msgstr ""
+
+#: inc/theme.php:84
+msgctxt "Theme admin page text"
+msgid ""
+"Havi is fully responsive, ensuring your website looks stunning on all "
+"devices, from desktops to smartphones. Your portfolio will always shine, no "
+"matter where it's viewed."
+msgstr ""
+
+#: inc/theme.php:82
+msgctxt "Theme admin page text"
+msgid ""
+"Havi is tailored for web developers, featuring a clean and modern design "
+"that highlights your technical skills and creativity. The minimalist layout "
+"ensures that your work takes center stage."
+msgstr ""
+
+#: inc/theme.php:88
+msgctxt "Theme admin page text"
+msgid ""
+"Share your knowledge and expertise with Havi’s elegant blog layouts. Engage "
+"your audience with insightful articles, tutorials, and industry news, all "
+"presented in a clean and readable format."
+msgstr ""
+
+#: inc/theme.php:80
+msgctxt "Theme admin page text"
+msgid ""
+"Welcome to Havi, the ultimate WordPress theme crafted specifically for web "
+"developers. Whether you're showcasing your portfolio, sharing your latest "
+"projects, or offering your services, Havi provides the perfect platform to "
+"present your work in a sleek, professional, and engaging manner."
+msgstr ""
+
+#: inc/theme.php:78
+msgctxt "Theme admin page title"
+msgid "Havi Theme"
+msgstr ""
+
+#: inc/theme-required-plugins.php:28
+msgid "UK Portfolio"
+msgstr ""
+
+#. Author of the theme
+msgid "Uladzimir Kulesh"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Welcome to Havi, the ultimate WordPress theme crafted specifically for web "
+"developers. Whether you're showcasing your portfolio, sharing your latest "
+"projects, or offering your services, Havi provides the perfect platform to "
+"present your work in a sleek, professional, and engaging manner. Havi is "
+"tailored for web developers, featuring a clean and modern design that "
+"highlights your technical skills and creativity. The minimalist layout "
+"ensures that your work takes center stage. Havi is fully responsive, "
+"ensuring your website looks stunning on all devices, from desktops to "
+"smartphones. Your portfolio will always shine, no matter where it's viewed. "
+"Get started quickly with pre-built templates for homepages, about pages, "
+"services, and contact pages. Each template is designed to provide a seamless "
+"user experience and convert visitors into clients. Share your knowledge and "
+"expertise with Havi’s elegant blog layouts. Engage your audience with "
+"insightful articles, tutorials, and industry news, all presented in a clean "
+"and readable format."
+msgstr ""
+
+#: patterns/text-why-i-am.php:61
+msgctxt "Why i am section text"
+msgid "Collaborations"
+msgstr ""
+
+#: patterns/text-why-i-am.php:49
+msgctxt "Why i am section text"
+msgid "Consultations"
+msgstr ""
+
+#: patterns/text-why-i-am.php:37
+msgctxt "Why i am section text"
+msgid ""
+"Experiencing issues with your website? I offer troubleshooting and "
+"maintenance services to keep your site running smoothly."
+msgstr ""
+
+#: patterns/text-why-i-am.php:25
+msgctxt "Why i am section text"
+msgid ""
+"Have an idea for a new website or need to revamp your existing one? Let’s "
+"discuss your project requirements and how I can help."
+msgstr ""
+
+#: patterns/text-why-i-am.php:65
+msgctxt "Why i am section text"
+msgid ""
+"Interested in collaborating on a project or partnering for a joint venture? "
+"I'm always open to exploring new opportunities."
+msgstr ""
+
+#: patterns/text-why-i-am.php:53
+msgctxt "Why i am section text"
+msgid ""
+"Not sure where to start? I provide consultations to help you navigate the "
+"digital landscape and plan your next steps."
+msgstr ""
+
+#: patterns/text-why-i-am.php:21
+msgctxt "Why i am section text"
+msgid "Project Inquiries"
+msgstr ""
+
+#: patterns/text-why-i-am.php:33
+msgctxt "Why i am section text"
+msgid "Technical Support"
+msgstr ""
+
+#: patterns/text-why-i-am.php:13
+msgctxt "Why i am section title"
+msgid "Why Reach Out?!"
+msgstr ""
+
+#: patterns/text-work-experience.php:85
+msgctxt "Work experience section text"
+msgid "2012 - 2018"
+msgstr ""
+
+#: patterns/text-work-experience.php:53
+msgctxt "Work experience section text"
+msgid "2018 - 2021"
+msgstr ""
+
+#: patterns/text-work-experience.php:21
+msgctxt "Work experience section text"
+msgid "2021 - Now"
+msgstr ""
+
+#: patterns/text-work-experience.php:73
+msgctxt "Work experience section text"
+msgid ""
+"As a graphic designer, I craft visually compelling solutions that blend "
+"creativity, strategy, and innovation to communicate brands' stories "
+"effectively."
+msgstr ""
+
+#: patterns/text-work-experience.php:41
+msgctxt "Work experience section text"
+msgid ""
+"As a UI/UX Designer, I create intuitive interfaces and engaging user "
+"experiences, blending creativity with usability to enhance digital "
+"interactions effectively."
+msgstr ""
+
+#: patterns/text-work-experience.php:105
+msgctxt "Work experience section text"
+msgid ""
+"As a web developer, I create responsive, user-friendly websites, "
+"specializing in custom designs, e-commerce solutions, CMS integration, and "
+"SEO optimization."
+msgstr ""
+
+#: patterns/text-work-experience.php:99
+msgctxt "Work experience section text"
+msgid "Astro Group"
+msgstr ""
+
+#: patterns/text-work-experience.php:67
+msgctxt "Work experience section text"
+msgid "Deboro Agency"
+msgstr ""
+
+#: patterns/text-work-experience.php:63
+msgctxt "Work experience section text"
+msgid "Graphic Designer"
+msgstr ""
+
+#: patterns/text-work-experience.php:35
+msgctxt "Work experience section text"
+msgid "Lerone Studio"
+msgstr ""
+
+#: patterns/text-work-experience.php:31
+msgctxt "Work experience section text"
+msgid "UI/UX Designer"
+msgstr ""
+
+#: patterns/text-work-experience.php:95
+msgctxt "Work experience section text"
+msgid "Web Developer"
+msgstr ""
+
+#: patterns/text-work-experience.php:13
+msgctxt "Work experience section title"
+msgid "Work Experience"
+msgstr ""

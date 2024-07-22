@@ -77,13 +77,15 @@ if ( ! function_exists( 'havi_theme_admin_page' ) ) {
 		<div class="wrap havi__wrap">
 			<h1><?php echo esc_html_x( 'Havi Theme', 'Theme admin page title', 'havi' ); ?></h1>
 
-			<p class="havi__theme-description"><?php echo esc_html_x( 'Introducing Havi - the ultimate WordPress theme for digital designers looking to showcase their portfolio in style!', 'Theme admin page text', 'havi' ); ?></p>
+			<p class="havi__theme-description"><?php echo esc_html_x( 'Welcome to Havi, the ultimate WordPress theme crafted specifically for web developers. Whether you\'re showcasing your portfolio, sharing your latest projects, or offering your services, Havi provides the perfect platform to present your work in a sleek, professional, and engaging manner.', 'Theme admin page text', 'havi' ); ?></p>
 
-			<p class="havi__theme-description"><?php echo esc_html_x( 'With its sleek and modern design, Havi is the perfect platform to showcase your creative work and impress potential clients. Whether you\'re a graphic designer, web developer, or photographer, Havi has got you covered.', 'Theme admin page text', 'havi' ); ?></p>
+			<p class="havi__theme-description"><?php echo esc_html_x( 'Havi is tailored for web developers, featuring a clean and modern design that highlights your technical skills and creativity. The minimalist layout ensures that your work takes center stage.', 'Theme admin page text', 'havi' ); ?></p>
 
-			<p class="havi__theme-description"><?php echo esc_html_x( 'Featuring a fully customizable layout, Havi allows you to effortlessly create a stunning portfolio that truly reflects your unique style and brand. Choose from a variety of pre-designed templates or create your own from scratch - the possibilities are endless!', 'Theme admin page text', 'havi' ); ?></p>
+			<p class="havi__theme-description"><?php echo esc_html_x( 'Havi is fully responsive, ensuring your website looks stunning on all devices, from desktops to smartphones. Your portfolio will always shine, no matter where it\'s viewed.', 'Theme admin page text', 'havi' ); ?></p>
 
-			<p class="havi__theme-description"><?php echo esc_html_x( 'So why settle for a generic portfolio when you can have Havi - the ultimate WordPress theme for digital designers. Get ready to showcase your talent and elevate your brand with Havi. Try it now!', 'Theme admin page text', 'havi' ); ?></p>
+			<p class="havi__theme-description"><?php echo esc_html_x( 'Get started quickly with pre-built templates for homepages, about pages, services, and contact pages. Each template is designed to provide a seamless user experience and convert visitors into clients.', 'Theme admin page text', 'havi' ); ?></p>
+
+			<p class="havi__theme-description"><?php echo esc_html_x( 'Share your knowledge and expertise with Havi’s elegant blog layouts. Engage your audience with insightful articles, tutorials, and industry news, all presented in a clean and readable format.', 'Theme admin page text', 'havi' ); ?></p>
 
 			<p class="submit">
 				<a href="<?php echo esc_url( AVI_THEME_URI ); ?>" class="button button-primary" target="_blank"><?php echo esc_html_x( 'Theme Homepage', 'Theme admin page button text', 'havi' ); ?></a>

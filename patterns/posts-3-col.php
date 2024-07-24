@@ -12,7 +12,7 @@
 	<!-- wp:post-template {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"grid","columnCount":3}} -->
 		<!-- wp:post-title {"level":3,"isLink":true,"style":{"spacing":{"margin":{"top":"0"}}},"fontSize":"medium"} /-->
 
-		<!-- wp:post-excerpt {"showMoreOnNewLine":false,"excerptLength":23,"style":{"spacing":{"margin":{"top":"1rem","bottom":"1rem"}}}} /-->
+		<!-- wp:post-excerpt {"showMoreOnNewLine":false,"excerptLength":35,"style":{"spacing":{"margin":{"top":"1rem","bottom":"1rem"}}}} /-->
 
 		<!-- wp:post-date {"format":"M j, Y"} /-->
 	<!-- /wp:post-template -->

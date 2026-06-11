@@ -20,7 +20,7 @@
 		printf(
 			/* translators: "Code by" text. */
 			esc_html__( 'Code by %s', 'havi' ),
-			'<a href="' . esc_url( __( 'https://uladzimirkulesh.com', 'havi' ) ) . '">Uladzimir Kulesh</a>' )
+			'<a href="' . esc_url( __( 'https://mroya.eu/', 'havi' ) ) . '">Uladzimir Kulesh</a>' )
 		?></p>
 		<!-- /wp:paragraph -->
 	</div>

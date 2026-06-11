@@ -2,9 +2,9 @@
 
 Contributors: Uladzimir Kulesh
 Requires at least: 6.1
-Tested up to: 6.6
+Tested up to: 7.0
 Requires PHP: 5.6
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -28,6 +28,9 @@ Share your knowledge and expertise with Havi’s elegant blog layouts. Engage yo
 4. Nhavigate to "Appearance > Editor" in your admin panel and customize to taste.
 
 == Changelog ==
+
+= 1.0.2 - June 11, 2026 =
+* CHECKED: Compatibility with WordPress 7.0.
 
 = 1.0.1 - August 29, 2024 =
 * DELETED: accessibility-ready tag.

@@ -59,6 +59,9 @@ browser-sync start --proxy "localhost:8888/wordpress" --files "**/*" --browser "
 
 ## Changelog
 
+**1.0.2 - June 11, 2026**
+* CHECKED: Compatibility with WordPress 7.0.
+
 **1.0.1 - August 29, 2024**
 * DELETED: accessibility-ready tag.
 
